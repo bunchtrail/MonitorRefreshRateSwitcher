@@ -7,6 +7,7 @@ using Forms = System.Windows.Forms;
 using Microsoft.Win32;
 using MessageBox = System.Windows.MessageBox;
 using Application = System.Windows.Application;
+using Button = System.Windows.Controls.Button;
 
 namespace MonitorRefreshRateSwitcher
 {
@@ -112,8 +113,43 @@ namespace MonitorRefreshRateSwitcher
                 {
                     Клавиши = $"{hotkey.Modifiers}+{hotkey.Key}",
                     Частота = $"{hotkey.TargetRefreshRate} Гц",
-                    Действия = "Удалить"
+                    Config = hotkey
                 });
+            }
+        }
+
+        private void EditHotkey_Click(object sender, RoutedEventArgs e)
+        {
+            var button = (Button)sender;
+            var item = (dynamic)((FrameworkElement)button.Parent).DataContext;
+            var hotkeyConfig = (HotkeyConfig)item.Config;
+            var index = _config.Hotkeys.IndexOf(hotkeyConfig);
+
+            if (index >= 0)
+            {
+                var dialog = new HotkeyDialog(hotkeyConfig);
+                if (dialog.ShowDialog() == true)
+                {
+                    var handle = new WindowInteropHelper(this).Handle;
+                    UnregisterHotkey(handle, hotkeyConfig);
+
+                    _config.Hotkeys[index] = dialog.HotkeyConfig;
+                    RegisterHotkey(dialog.HotkeyConfig);
+                    UpdateHotkeyList();
+                    _config.Save();
+                }
+            }
+        }
+
+        private void UnregisterHotkey(IntPtr handle, HotkeyConfig config)
+        {
+            _hotkeyManager.UnregisterAll(handle);
+            foreach (var hotkey in _config.Hotkeys)
+            {
+                if (hotkey != config)
+                {
+                    RegisterHotkey(hotkey);
+                }
             }
         }
 

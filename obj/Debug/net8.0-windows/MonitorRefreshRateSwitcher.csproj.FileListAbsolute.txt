@@ -20,3 +20,4 @@ D:\Projects\MonitorRefreshRateSwitcher\obj\Debug\net8.0-windows\MonitorRefreshRa
 D:\Projects\MonitorRefreshRateSwitcher\obj\Debug\net8.0-windows\ref\MonitorRefreshRateSwitcher.dll
 D:\Projects\MonitorRefreshRateSwitcher\obj\Debug\net8.0-windows\HotkeyDialog.baml
 D:\Projects\MonitorRefreshRateSwitcher\obj\Debug\net8.0-windows\HotkeyDialog.g.cs
+D:\Projects\MonitorRefreshRateSwitcher\obj\Debug\net8.0-windows\MonitorRefreshRateSwitcher.sourcelink.json

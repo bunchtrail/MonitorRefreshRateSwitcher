@@ -18,6 +18,24 @@ namespace MonitorRefreshRateSwitcher
             LoadRefreshRates();
         }
 
+        public HotkeyDialog(HotkeyConfig existingConfig) : this()
+        {
+            _selectedKey = existingConfig.Key;
+            _selectedModifiers = existingConfig.Modifiers;
+            UpdateHotkeyText();
+
+            // Выбираем существующую частоту обновления
+            var rates = (int[])RefreshRateComboBox.ItemsSource;
+            for (int i = 0; i < rates.Length; i++)
+            {
+                if (rates[i] == existingConfig.TargetRefreshRate)
+                {
+                    RefreshRateComboBox.SelectedIndex = i;
+                    break;
+                }
+            }
+        }
+
         private void LoadRefreshRates()
         {
             var rates = DisplaySettings.GetAvailableRefreshRates();
@@ -63,7 +81,7 @@ namespace MonitorRefreshRateSwitcher
             if (_selectedKey != Key.None)
                 text += _selectedKey.ToString();
 
-            HotkeyTextBox.Text = text;
+            HotkeyTextBox.Text = text.TrimEnd(' ', '+');
         }
 
         private void OkButton_Click(object sender, RoutedEventArgs e)
