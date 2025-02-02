@@ -77,7 +77,7 @@ namespace MonitorRefreshRateSwitcher {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/MonitorRefreshRateSwitcher;component/profiledialog.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/MonitorRefreshRateSwitcher;V1.0.0.0;component/profiledialog.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\ProfileDialog.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

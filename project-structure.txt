@@ -1,0 +1,21 @@
+📁 MonitorRefreshRateSwitcher
+├── 📁 Resources
+├── └── 📄 app.ico
+├── 📄 app.manifest
+├── 📄 App.xaml
+├── 📄 App.xaml.cs
+├── 📄 AppConfig.cs
+├── 📄 AssemblyInfo.cs
+├── 📄 DisplaySettings.cs
+├── 📄 HotkeyDialog.xaml
+├── 📄 HotkeyDialog.xaml.cs
+├── 📄 HotkeyManager.cs
+├── 📄 MainWindow.xaml
+├── 📄 MainWindow.xaml.cs
+├── 📄 MonitorRefreshRateSwitcher.csproj
+├── 📄 MonitorRefreshRateSwitcher.csproj.user
+├── 📄 MonitorRefreshRateSwitcher.sln
+├── 📄 NotificationManager.cs
+├── 📄 ProfileDialog.xaml
+├── 📄 ProfileDialog.xaml.cs
+└── 📄 ProfileManager.cs

@@ -1,0 +1,2963 @@
+{
+  "name": "MonitorRefreshRateSwitcher",
+  "structure": {
+    "type": "directory",
+    "name": "MonitorRefreshRateSwitcher",
+    "path": "d:\\Projects\\MonitorRefreshRateSwitcher",
+    "children": [
+      {
+        "type": "directory",
+        "name": ".vs",
+        "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\.vs",
+        "children": [
+          {
+            "type": "directory",
+            "name": "MonitorRefreshRateSwitcher",
+            "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\.vs\\MonitorRefreshRateSwitcher",
+            "children": [
+              {
+                "type": "directory",
+                "name": "DesignTimeBuild",
+                "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\.vs\\MonitorRefreshRateSwitcher\\DesignTimeBuild",
+                "children": [
+                  {
+                    "type": "file",
+                    "name": ".dtbcache.v2",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\.vs\\MonitorRefreshRateSwitcher\\DesignTimeBuild\\.dtbcache.v2"
+                  }
+                ]
+              },
+              {
+                "type": "directory",
+                "name": "FileContentIndex",
+                "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\.vs\\MonitorRefreshRateSwitcher\\FileContentIndex",
+                "children": [
+                  {
+                    "type": "file",
+                    "name": "39a591ad-5312-4fd5-ae0d-8da72547b4e2.vsidx",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\.vs\\MonitorRefreshRateSwitcher\\FileContentIndex\\39a591ad-5312-4fd5-ae0d-8da72547b4e2.vsidx"
+                  },
+                  {
+                    "type": "file",
+                    "name": "577cbd7f-5304-41e1-a70f-642f9a0eb8ba.vsidx",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\.vs\\MonitorRefreshRateSwitcher\\FileContentIndex\\577cbd7f-5304-41e1-a70f-642f9a0eb8ba.vsidx"
+                  },
+                  {
+                    "type": "file",
+                    "name": "8a340bf5-33f3-42de-bc0d-ce05900a6e0d.vsidx",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\.vs\\MonitorRefreshRateSwitcher\\FileContentIndex\\8a340bf5-33f3-42de-bc0d-ce05900a6e0d.vsidx"
+                  },
+                  {
+                    "type": "file",
+                    "name": "c16e978a-4c24-4c98-9b7d-6efc2ca7f5e2.vsidx",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\.vs\\MonitorRefreshRateSwitcher\\FileContentIndex\\c16e978a-4c24-4c98-9b7d-6efc2ca7f5e2.vsidx"
+                  },
+                  {
+                    "type": "file",
+                    "name": "d9561b26-b861-49b9-8f66-73da93d6c9b3.vsidx",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\.vs\\MonitorRefreshRateSwitcher\\FileContentIndex\\d9561b26-b861-49b9-8f66-73da93d6c9b3.vsidx"
+                  }
+                ]
+              },
+              {
+                "type": "directory",
+                "name": "v17",
+                "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\.vs\\MonitorRefreshRateSwitcher\\v17",
+                "children": [
+                  {
+                    "type": "file",
+                    "name": ".futdcache.v2",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\.vs\\MonitorRefreshRateSwitcher\\v17\\.futdcache.v2"
+                  },
+                  {
+                    "type": "file",
+                    "name": ".suo",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\.vs\\MonitorRefreshRateSwitcher\\v17\\.suo"
+                  },
+                  {
+                    "type": "file",
+                    "name": "DocumentLayout.backup.json",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\.vs\\MonitorRefreshRateSwitcher\\v17\\DocumentLayout.backup.json"
+                  },
+                  {
+                    "type": "file",
+                    "name": "DocumentLayout.json",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\.vs\\MonitorRefreshRateSwitcher\\v17\\DocumentLayout.json"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "directory",
+            "name": "ProjectEvaluation",
+            "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\.vs\\ProjectEvaluation",
+            "children": [
+              {
+                "type": "file",
+                "name": "monitorrefreshrateswitcher.metadata.v9.bin",
+                "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\.vs\\ProjectEvaluation\\monitorrefreshrateswitcher.metadata.v9.bin"
+              },
+              {
+                "type": "file",
+                "name": "monitorrefreshrateswitcher.projects.v9.bin",
+                "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\.vs\\ProjectEvaluation\\monitorrefreshrateswitcher.projects.v9.bin"
+              },
+              {
+                "type": "file",
+                "name": "monitorrefreshrateswitcher.strings.v9.bin",
+                "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\.vs\\ProjectEvaluation\\monitorrefreshrateswitcher.strings.v9.bin"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "directory",
+        "name": "bin",
+        "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\bin",
+        "children": [
+          {
+            "type": "directory",
+            "name": "Debug",
+            "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\bin\\Debug",
+            "children": [
+              {
+                "type": "directory",
+                "name": "net6.0-windows",
+                "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\bin\\Debug\\net6.0-windows",
+                "children": [
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher.deps.json",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\bin\\Debug\\net6.0-windows\\MonitorRefreshRateSwitcher.deps.json"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher.dll",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\bin\\Debug\\net6.0-windows\\MonitorRefreshRateSwitcher.dll"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher.exe",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\bin\\Debug\\net6.0-windows\\MonitorRefreshRateSwitcher.exe"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher.pdb",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\bin\\Debug\\net6.0-windows\\MonitorRefreshRateSwitcher.pdb"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher.runtimeconfig.json",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\bin\\Debug\\net6.0-windows\\MonitorRefreshRateSwitcher.runtimeconfig.json"
+                  }
+                ]
+              },
+              {
+                "type": "directory",
+                "name": "net8.0",
+                "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\bin\\Debug\\net8.0",
+                "children": []
+              },
+              {
+                "type": "directory",
+                "name": "net8.0-windows",
+                "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\bin\\Debug\\net8.0-windows",
+                "children": [
+                  {
+                    "type": "directory",
+                    "name": "runtimes",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\bin\\Debug\\net8.0-windows\\runtimes",
+                    "children": [
+                      {
+                        "type": "directory",
+                        "name": "win",
+                        "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\bin\\Debug\\net8.0-windows\\runtimes\\win",
+                        "children": [
+                          {
+                            "type": "directory",
+                            "name": "lib",
+                            "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\bin\\Debug\\net8.0-windows\\runtimes\\win\\lib",
+                            "children": [
+                              {
+                                "type": "directory",
+                                "name": "net8.0",
+                                "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\bin\\Debug\\net8.0-windows\\runtimes\\win\\lib\\net8.0",
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher.deps.json",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\bin\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher.deps.json"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher.dll",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\bin\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher.dll"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher.exe",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\bin\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher.exe"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher.pdb",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\bin\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher.pdb"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher.runtimeconfig.json",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\bin\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher.runtimeconfig.json"
+                  }
+                ]
+              },
+              {
+                "type": "directory",
+                "name": "net8.0-windows10.0.17763.0",
+                "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\bin\\Debug\\net8.0-windows10.0.17763.0",
+                "children": [
+                  {
+                    "type": "directory",
+                    "name": "runtimes",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\bin\\Debug\\net8.0-windows10.0.17763.0\\runtimes",
+                    "children": [
+                      {
+                        "type": "directory",
+                        "name": "win",
+                        "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\bin\\Debug\\net8.0-windows10.0.17763.0\\runtimes\\win",
+                        "children": [
+                          {
+                            "type": "directory",
+                            "name": "lib",
+                            "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\bin\\Debug\\net8.0-windows10.0.17763.0\\runtimes\\win\\lib",
+                            "children": [
+                              {
+                                "type": "directory",
+                                "name": "net8.0",
+                                "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\bin\\Debug\\net8.0-windows10.0.17763.0\\runtimes\\win\\lib\\net8.0",
+                                "children": [
+                                  {
+                                    "type": "file",
+                                    "name": "System.Management.dll",
+                                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\bin\\Debug\\net8.0-windows10.0.17763.0\\runtimes\\win\\lib\\net8.0\\System.Management.dll"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "file",
+                    "name": "Microsoft.Toolkit.Uwp.Notifications.dll",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\bin\\Debug\\net8.0-windows10.0.17763.0\\Microsoft.Toolkit.Uwp.Notifications.dll"
+                  },
+                  {
+                    "type": "file",
+                    "name": "Microsoft.Windows.SDK.NET.dll",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\bin\\Debug\\net8.0-windows10.0.17763.0\\Microsoft.Windows.SDK.NET.dll"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher.deps.json",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\bin\\Debug\\net8.0-windows10.0.17763.0\\MonitorRefreshRateSwitcher.deps.json"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher.dll",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\bin\\Debug\\net8.0-windows10.0.17763.0\\MonitorRefreshRateSwitcher.dll"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher.exe",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\bin\\Debug\\net8.0-windows10.0.17763.0\\MonitorRefreshRateSwitcher.exe"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher.pdb",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\bin\\Debug\\net8.0-windows10.0.17763.0\\MonitorRefreshRateSwitcher.pdb"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher.runtimeconfig.json",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\bin\\Debug\\net8.0-windows10.0.17763.0\\MonitorRefreshRateSwitcher.runtimeconfig.json"
+                  },
+                  {
+                    "type": "file",
+                    "name": "System.Management.dll",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\bin\\Debug\\net8.0-windows10.0.17763.0\\System.Management.dll"
+                  },
+                  {
+                    "type": "file",
+                    "name": "WinRT.Runtime.dll",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\bin\\Debug\\net8.0-windows10.0.17763.0\\WinRT.Runtime.dll"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "directory",
+        "name": "docs",
+        "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\docs",
+        "children": [
+          {
+            "type": "file",
+            "name": "project-structure.json",
+            "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\docs\\project-structure.json"
+          }
+        ]
+      },
+      {
+        "type": "directory",
+        "name": "obj",
+        "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj",
+        "children": [
+          {
+            "type": "directory",
+            "name": "Debug",
+            "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug",
+            "children": [
+              {
+                "type": "directory",
+                "name": "net6.0-windows",
+                "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net6.0-windows",
+                "children": [
+                  {
+                    "type": "directory",
+                    "name": "ref",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net6.0-windows\\ref",
+                    "children": [
+                      {
+                        "type": "file",
+                        "name": "MonitorRefreshRateSwitcher.dll",
+                        "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net6.0-windows\\ref\\MonitorRefreshRateSwitcher.dll"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "directory",
+                    "name": "refint",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net6.0-windows\\refint",
+                    "children": [
+                      {
+                        "type": "file",
+                        "name": "MonitorRefreshRateSwitcher.dll",
+                        "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net6.0-windows\\refint\\MonitorRefreshRateSwitcher.dll"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "file",
+                    "name": ".NETCoreApp,Version=v6.0.AssemblyAttributes.cs",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net6.0-windows\\.NETCoreApp,Version=v6.0.AssemblyAttributes.cs"
+                  },
+                  {
+                    "type": "file",
+                    "name": "App.g.cs",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net6.0-windows\\App.g.cs"
+                  },
+                  {
+                    "type": "file",
+                    "name": "App.g.i.cs",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net6.0-windows\\App.g.i.cs"
+                  },
+                  {
+                    "type": "file",
+                    "name": "apphost.exe",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net6.0-windows\\apphost.exe"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MainWindow.baml",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net6.0-windows\\MainWindow.baml"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MainWindow.g.cs",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net6.0-windows\\MainWindow.g.cs"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MainWindow.g.i.cs",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net6.0-windows\\MainWindow.g.i.cs"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_5jhiwoz2_wpftmp.AssemblyInfo.cs",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net6.0-windows\\MonitorRefreshRateSwitcher_5jhiwoz2_wpftmp.AssemblyInfo.cs"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_5jhiwoz2_wpftmp.AssemblyInfoInputs.cache",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net6.0-windows\\MonitorRefreshRateSwitcher_5jhiwoz2_wpftmp.AssemblyInfoInputs.cache"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_5jhiwoz2_wpftmp.assets.cache",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net6.0-windows\\MonitorRefreshRateSwitcher_5jhiwoz2_wpftmp.assets.cache"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_5jhiwoz2_wpftmp.csproj.BuildWithSkipAnalyzers",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net6.0-windows\\MonitorRefreshRateSwitcher_5jhiwoz2_wpftmp.csproj.BuildWithSkipAnalyzers"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_5jhiwoz2_wpftmp.GeneratedMSBuildEditorConfig.editorconfig",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net6.0-windows\\MonitorRefreshRateSwitcher_5jhiwoz2_wpftmp.GeneratedMSBuildEditorConfig.editorconfig"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_MarkupCompile.cache",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net6.0-windows\\MonitorRefreshRateSwitcher_MarkupCompile.cache"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_MarkupCompile.i.cache",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net6.0-windows\\MonitorRefreshRateSwitcher_MarkupCompile.i.cache"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_MarkupCompile.lref",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net6.0-windows\\MonitorRefreshRateSwitcher_MarkupCompile.lref"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher.AssemblyInfo.cs",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net6.0-windows\\MonitorRefreshRateSwitcher.AssemblyInfo.cs"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher.AssemblyInfoInputs.cache",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net6.0-windows\\MonitorRefreshRateSwitcher.AssemblyInfoInputs.cache"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher.assets.cache",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net6.0-windows\\MonitorRefreshRateSwitcher.assets.cache"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher.csproj.BuildWithSkipAnalyzers",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net6.0-windows\\MonitorRefreshRateSwitcher.csproj.BuildWithSkipAnalyzers"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher.csproj.CoreCompileInputs.cache",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net6.0-windows\\MonitorRefreshRateSwitcher.csproj.CoreCompileInputs.cache"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher.csproj.FileListAbsolute.txt",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net6.0-windows\\MonitorRefreshRateSwitcher.csproj.FileListAbsolute.txt"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher.designer.deps.json",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net6.0-windows\\MonitorRefreshRateSwitcher.designer.deps.json"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher.designer.runtimeconfig.json",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net6.0-windows\\MonitorRefreshRateSwitcher.designer.runtimeconfig.json"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher.dll",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net6.0-windows\\MonitorRefreshRateSwitcher.dll"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher.g.resources",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net6.0-windows\\MonitorRefreshRateSwitcher.g.resources"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher.GeneratedMSBuildEditorConfig.editorconfig",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net6.0-windows\\MonitorRefreshRateSwitcher.GeneratedMSBuildEditorConfig.editorconfig"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher.genruntimeconfig.cache",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net6.0-windows\\MonitorRefreshRateSwitcher.genruntimeconfig.cache"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher.pdb",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net6.0-windows\\MonitorRefreshRateSwitcher.pdb"
+                  }
+                ]
+              },
+              {
+                "type": "directory",
+                "name": "net8.0",
+                "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0",
+                "children": [
+                  {
+                    "type": "directory",
+                    "name": "ref",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0\\ref",
+                    "children": []
+                  },
+                  {
+                    "type": "directory",
+                    "name": "refint",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0\\refint",
+                    "children": []
+                  },
+                  {
+                    "type": "file",
+                    "name": ".NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0\\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher.AssemblyInfo.cs",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0\\MonitorRefreshRateSwitcher.AssemblyInfo.cs"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher.AssemblyInfoInputs.cache",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0\\MonitorRefreshRateSwitcher.AssemblyInfoInputs.cache"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher.assets.cache",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0\\MonitorRefreshRateSwitcher.assets.cache"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher.GeneratedMSBuildEditorConfig.editorconfig",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0\\MonitorRefreshRateSwitcher.GeneratedMSBuildEditorConfig.editorconfig"
+                  }
+                ]
+              },
+              {
+                "type": "directory",
+                "name": "net8.0-windows",
+                "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows",
+                "children": [
+                  {
+                    "type": "directory",
+                    "name": "ref",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\ref",
+                    "children": [
+                      {
+                        "type": "file",
+                        "name": "MonitorRefreshRateSwitcher.dll",
+                        "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\ref\\MonitorRefreshRateSwitcher.dll"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "directory",
+                    "name": "refint",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\refint",
+                    "children": [
+                      {
+                        "type": "file",
+                        "name": "MonitorRefreshRateSwitcher.dll",
+                        "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\refint\\MonitorRefreshRateSwitcher.dll"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "file",
+                    "name": ".NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs"
+                  },
+                  {
+                    "type": "file",
+                    "name": "App.g.cs",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\App.g.cs"
+                  },
+                  {
+                    "type": "file",
+                    "name": "App.g.i.cs",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\App.g.i.cs"
+                  },
+                  {
+                    "type": "file",
+                    "name": "apphost.exe",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\apphost.exe"
+                  },
+                  {
+                    "type": "file",
+                    "name": "HotkeyDialog.baml",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\HotkeyDialog.baml"
+                  },
+                  {
+                    "type": "file",
+                    "name": "HotkeyDialog.g.cs",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\HotkeyDialog.g.cs"
+                  },
+                  {
+                    "type": "file",
+                    "name": "HotkeyDialog.g.i.cs",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\HotkeyDialog.g.i.cs"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MainWindow.baml",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MainWindow.baml"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MainWindow.g.cs",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MainWindow.g.cs"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MainWindow.g.i.cs",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MainWindow.g.i.cs"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_0l2nnjqg_wpftmp.AssemblyInfo.cs",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_0l2nnjqg_wpftmp.AssemblyInfo.cs"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_0l2nnjqg_wpftmp.AssemblyInfoInputs.cache",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_0l2nnjqg_wpftmp.AssemblyInfoInputs.cache"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_0l2nnjqg_wpftmp.assets.cache",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_0l2nnjqg_wpftmp.assets.cache"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_0l2nnjqg_wpftmp.csproj.BuildWithSkipAnalyzers",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_0l2nnjqg_wpftmp.csproj.BuildWithSkipAnalyzers"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_0l2nnjqg_wpftmp.GeneratedMSBuildEditorConfig.editorconfig",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_0l2nnjqg_wpftmp.GeneratedMSBuildEditorConfig.editorconfig"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_1e45wx1y_wpftmp.AssemblyInfo.cs",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_1e45wx1y_wpftmp.AssemblyInfo.cs"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_1e45wx1y_wpftmp.AssemblyInfoInputs.cache",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_1e45wx1y_wpftmp.AssemblyInfoInputs.cache"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_1e45wx1y_wpftmp.assets.cache",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_1e45wx1y_wpftmp.assets.cache"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_1e45wx1y_wpftmp.csproj.BuildWithSkipAnalyzers",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_1e45wx1y_wpftmp.csproj.BuildWithSkipAnalyzers"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_1e45wx1y_wpftmp.GeneratedMSBuildEditorConfig.editorconfig",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_1e45wx1y_wpftmp.GeneratedMSBuildEditorConfig.editorconfig"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_1e45wx1y_wpftmp.GlobalUsings.g.cs",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_1e45wx1y_wpftmp.GlobalUsings.g.cs"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_1e45wx1y_wpftmp.sourcelink.json",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_1e45wx1y_wpftmp.sourcelink.json"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_4zrullkh_wpftmp.AssemblyInfo.cs",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_4zrullkh_wpftmp.AssemblyInfo.cs"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_4zrullkh_wpftmp.AssemblyInfoInputs.cache",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_4zrullkh_wpftmp.AssemblyInfoInputs.cache"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_4zrullkh_wpftmp.assets.cache",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_4zrullkh_wpftmp.assets.cache"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_4zrullkh_wpftmp.GeneratedMSBuildEditorConfig.editorconfig",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_4zrullkh_wpftmp.GeneratedMSBuildEditorConfig.editorconfig"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_4zrullkh_wpftmp.GlobalUsings.g.cs",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_4zrullkh_wpftmp.GlobalUsings.g.cs"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_4zrullkh_wpftmp.sourcelink.json",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_4zrullkh_wpftmp.sourcelink.json"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_54cpl4j1_wpftmp.AssemblyInfo.cs",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_54cpl4j1_wpftmp.AssemblyInfo.cs"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_54cpl4j1_wpftmp.AssemblyInfoInputs.cache",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_54cpl4j1_wpftmp.AssemblyInfoInputs.cache"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_54cpl4j1_wpftmp.assets.cache",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_54cpl4j1_wpftmp.assets.cache"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_54cpl4j1_wpftmp.GeneratedMSBuildEditorConfig.editorconfig",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_54cpl4j1_wpftmp.GeneratedMSBuildEditorConfig.editorconfig"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_54cpl4j1_wpftmp.GlobalUsings.g.cs",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_54cpl4j1_wpftmp.GlobalUsings.g.cs"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_54cpl4j1_wpftmp.sourcelink.json",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_54cpl4j1_wpftmp.sourcelink.json"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_5as5jrip_wpftmp.AssemblyInfo.cs",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_5as5jrip_wpftmp.AssemblyInfo.cs"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_5as5jrip_wpftmp.AssemblyInfoInputs.cache",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_5as5jrip_wpftmp.AssemblyInfoInputs.cache"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_5as5jrip_wpftmp.assets.cache",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_5as5jrip_wpftmp.assets.cache"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_5as5jrip_wpftmp.GeneratedMSBuildEditorConfig.editorconfig",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_5as5jrip_wpftmp.GeneratedMSBuildEditorConfig.editorconfig"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_5as5jrip_wpftmp.GlobalUsings.g.cs",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_5as5jrip_wpftmp.GlobalUsings.g.cs"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_5as5jrip_wpftmp.sourcelink.json",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_5as5jrip_wpftmp.sourcelink.json"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_blkxs5h5_wpftmp.AssemblyInfo.cs",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_blkxs5h5_wpftmp.AssemblyInfo.cs"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_blkxs5h5_wpftmp.AssemblyInfoInputs.cache",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_blkxs5h5_wpftmp.AssemblyInfoInputs.cache"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_blkxs5h5_wpftmp.assets.cache",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_blkxs5h5_wpftmp.assets.cache"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_blkxs5h5_wpftmp.GeneratedMSBuildEditorConfig.editorconfig",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_blkxs5h5_wpftmp.GeneratedMSBuildEditorConfig.editorconfig"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_blkxs5h5_wpftmp.GlobalUsings.g.cs",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_blkxs5h5_wpftmp.GlobalUsings.g.cs"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_blkxs5h5_wpftmp.sourcelink.json",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_blkxs5h5_wpftmp.sourcelink.json"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_ccrdoiqs_wpftmp.AssemblyInfo.cs",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_ccrdoiqs_wpftmp.AssemblyInfo.cs"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_ccrdoiqs_wpftmp.AssemblyInfoInputs.cache",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_ccrdoiqs_wpftmp.AssemblyInfoInputs.cache"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_ccrdoiqs_wpftmp.assets.cache",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_ccrdoiqs_wpftmp.assets.cache"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_ccrdoiqs_wpftmp.GeneratedMSBuildEditorConfig.editorconfig",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_ccrdoiqs_wpftmp.GeneratedMSBuildEditorConfig.editorconfig"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_d0rgyjhi_wpftmp.AssemblyInfo.cs",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_d0rgyjhi_wpftmp.AssemblyInfo.cs"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_d0rgyjhi_wpftmp.AssemblyInfoInputs.cache",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_d0rgyjhi_wpftmp.AssemblyInfoInputs.cache"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_d0rgyjhi_wpftmp.assets.cache",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_d0rgyjhi_wpftmp.assets.cache"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_d0rgyjhi_wpftmp.GeneratedMSBuildEditorConfig.editorconfig",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_d0rgyjhi_wpftmp.GeneratedMSBuildEditorConfig.editorconfig"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_d0rgyjhi_wpftmp.GlobalUsings.g.cs",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_d0rgyjhi_wpftmp.GlobalUsings.g.cs"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_d0rgyjhi_wpftmp.sourcelink.json",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_d0rgyjhi_wpftmp.sourcelink.json"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_gnnzp0f2_wpftmp.AssemblyInfo.cs",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_gnnzp0f2_wpftmp.AssemblyInfo.cs"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_gnnzp0f2_wpftmp.AssemblyInfoInputs.cache",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_gnnzp0f2_wpftmp.AssemblyInfoInputs.cache"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_gnnzp0f2_wpftmp.assets.cache",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_gnnzp0f2_wpftmp.assets.cache"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_gnnzp0f2_wpftmp.csproj.BuildWithSkipAnalyzers",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_gnnzp0f2_wpftmp.csproj.BuildWithSkipAnalyzers"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_gnnzp0f2_wpftmp.GeneratedMSBuildEditorConfig.editorconfig",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_gnnzp0f2_wpftmp.GeneratedMSBuildEditorConfig.editorconfig"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_gnnzp0f2_wpftmp.GlobalUsings.g.cs",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_gnnzp0f2_wpftmp.GlobalUsings.g.cs"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_gnnzp0f2_wpftmp.sourcelink.json",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_gnnzp0f2_wpftmp.sourcelink.json"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_gqnjlpzo_wpftmp.AssemblyInfo.cs",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_gqnjlpzo_wpftmp.AssemblyInfo.cs"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_gqnjlpzo_wpftmp.AssemblyInfoInputs.cache",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_gqnjlpzo_wpftmp.AssemblyInfoInputs.cache"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_gqnjlpzo_wpftmp.assets.cache",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_gqnjlpzo_wpftmp.assets.cache"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_gqnjlpzo_wpftmp.GeneratedMSBuildEditorConfig.editorconfig",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_gqnjlpzo_wpftmp.GeneratedMSBuildEditorConfig.editorconfig"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_gqnjlpzo_wpftmp.GlobalUsings.g.cs",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_gqnjlpzo_wpftmp.GlobalUsings.g.cs"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_gqnjlpzo_wpftmp.sourcelink.json",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_gqnjlpzo_wpftmp.sourcelink.json"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_gspwrwej_wpftmp.AssemblyInfo.cs",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_gspwrwej_wpftmp.AssemblyInfo.cs"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_gspwrwej_wpftmp.AssemblyInfoInputs.cache",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_gspwrwej_wpftmp.AssemblyInfoInputs.cache"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_gspwrwej_wpftmp.assets.cache",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_gspwrwej_wpftmp.assets.cache"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_gspwrwej_wpftmp.GeneratedMSBuildEditorConfig.editorconfig",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_gspwrwej_wpftmp.GeneratedMSBuildEditorConfig.editorconfig"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_gspwrwej_wpftmp.GlobalUsings.g.cs",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_gspwrwej_wpftmp.GlobalUsings.g.cs"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_gspwrwej_wpftmp.sourcelink.json",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_gspwrwej_wpftmp.sourcelink.json"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_h1wyqgzq_wpftmp.AssemblyInfo.cs",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_h1wyqgzq_wpftmp.AssemblyInfo.cs"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_h1wyqgzq_wpftmp.AssemblyInfoInputs.cache",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_h1wyqgzq_wpftmp.AssemblyInfoInputs.cache"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_h1wyqgzq_wpftmp.assets.cache",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_h1wyqgzq_wpftmp.assets.cache"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_h1wyqgzq_wpftmp.GeneratedMSBuildEditorConfig.editorconfig",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_h1wyqgzq_wpftmp.GeneratedMSBuildEditorConfig.editorconfig"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_h1wyqgzq_wpftmp.GlobalUsings.g.cs",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_h1wyqgzq_wpftmp.GlobalUsings.g.cs"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_h1wyqgzq_wpftmp.sourcelink.json",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_h1wyqgzq_wpftmp.sourcelink.json"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_hvbjihh0_wpftmp.AssemblyInfo.cs",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_hvbjihh0_wpftmp.AssemblyInfo.cs"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_hvbjihh0_wpftmp.AssemblyInfoInputs.cache",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_hvbjihh0_wpftmp.AssemblyInfoInputs.cache"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_hvbjihh0_wpftmp.assets.cache",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_hvbjihh0_wpftmp.assets.cache"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_hvbjihh0_wpftmp.GeneratedMSBuildEditorConfig.editorconfig",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_hvbjihh0_wpftmp.GeneratedMSBuildEditorConfig.editorconfig"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_hvbjihh0_wpftmp.GlobalUsings.g.cs",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_hvbjihh0_wpftmp.GlobalUsings.g.cs"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_hvbjihh0_wpftmp.sourcelink.json",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_hvbjihh0_wpftmp.sourcelink.json"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_j0tesvsq_wpftmp.AssemblyInfo.cs",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_j0tesvsq_wpftmp.AssemblyInfo.cs"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_j0tesvsq_wpftmp.AssemblyInfoInputs.cache",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_j0tesvsq_wpftmp.AssemblyInfoInputs.cache"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_j0tesvsq_wpftmp.assets.cache",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_j0tesvsq_wpftmp.assets.cache"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_j0tesvsq_wpftmp.csproj.BuildWithSkipAnalyzers",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_j0tesvsq_wpftmp.csproj.BuildWithSkipAnalyzers"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_j0tesvsq_wpftmp.GeneratedMSBuildEditorConfig.editorconfig",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_j0tesvsq_wpftmp.GeneratedMSBuildEditorConfig.editorconfig"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_j0tesvsq_wpftmp.GlobalUsings.g.cs",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_j0tesvsq_wpftmp.GlobalUsings.g.cs"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_j2qgog2g_wpftmp.AssemblyInfo.cs",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_j2qgog2g_wpftmp.AssemblyInfo.cs"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_j2qgog2g_wpftmp.AssemblyInfoInputs.cache",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_j2qgog2g_wpftmp.AssemblyInfoInputs.cache"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_j2qgog2g_wpftmp.assets.cache",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_j2qgog2g_wpftmp.assets.cache"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_j2qgog2g_wpftmp.GeneratedMSBuildEditorConfig.editorconfig",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_j2qgog2g_wpftmp.GeneratedMSBuildEditorConfig.editorconfig"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_j2qgog2g_wpftmp.GlobalUsings.g.cs",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_j2qgog2g_wpftmp.GlobalUsings.g.cs"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_jej0k5tk_wpftmp.AssemblyInfo.cs",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_jej0k5tk_wpftmp.AssemblyInfo.cs"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_jej0k5tk_wpftmp.AssemblyInfoInputs.cache",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_jej0k5tk_wpftmp.AssemblyInfoInputs.cache"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_jej0k5tk_wpftmp.assets.cache",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_jej0k5tk_wpftmp.assets.cache"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_jej0k5tk_wpftmp.csproj.BuildWithSkipAnalyzers",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_jej0k5tk_wpftmp.csproj.BuildWithSkipAnalyzers"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_jej0k5tk_wpftmp.GeneratedMSBuildEditorConfig.editorconfig",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_jej0k5tk_wpftmp.GeneratedMSBuildEditorConfig.editorconfig"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_jej0k5tk_wpftmp.GlobalUsings.g.cs",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_jej0k5tk_wpftmp.GlobalUsings.g.cs"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_jej0k5tk_wpftmp.sourcelink.json",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_jej0k5tk_wpftmp.sourcelink.json"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_jrm2foty_wpftmp.AssemblyInfo.cs",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_jrm2foty_wpftmp.AssemblyInfo.cs"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_jrm2foty_wpftmp.AssemblyInfoInputs.cache",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_jrm2foty_wpftmp.AssemblyInfoInputs.cache"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_jrm2foty_wpftmp.assets.cache",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_jrm2foty_wpftmp.assets.cache"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_jrm2foty_wpftmp.GeneratedMSBuildEditorConfig.editorconfig",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_jrm2foty_wpftmp.GeneratedMSBuildEditorConfig.editorconfig"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_jrm2foty_wpftmp.GlobalUsings.g.cs",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_jrm2foty_wpftmp.GlobalUsings.g.cs"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_kbvihwul_wpftmp.AssemblyInfo.cs",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_kbvihwul_wpftmp.AssemblyInfo.cs"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_kbvihwul_wpftmp.AssemblyInfoInputs.cache",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_kbvihwul_wpftmp.AssemblyInfoInputs.cache"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_kbvihwul_wpftmp.assets.cache",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_kbvihwul_wpftmp.assets.cache"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_kbvihwul_wpftmp.GeneratedMSBuildEditorConfig.editorconfig",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_kbvihwul_wpftmp.GeneratedMSBuildEditorConfig.editorconfig"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_kbvihwul_wpftmp.GlobalUsings.g.cs",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_kbvihwul_wpftmp.GlobalUsings.g.cs"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_kbvihwul_wpftmp.sourcelink.json",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_kbvihwul_wpftmp.sourcelink.json"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_kfnsn1qd_wpftmp.AssemblyInfo.cs",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_kfnsn1qd_wpftmp.AssemblyInfo.cs"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_kfnsn1qd_wpftmp.AssemblyInfoInputs.cache",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_kfnsn1qd_wpftmp.AssemblyInfoInputs.cache"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_kfnsn1qd_wpftmp.assets.cache",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_kfnsn1qd_wpftmp.assets.cache"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_kfnsn1qd_wpftmp.GeneratedMSBuildEditorConfig.editorconfig",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_kfnsn1qd_wpftmp.GeneratedMSBuildEditorConfig.editorconfig"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_kfnsn1qd_wpftmp.GlobalUsings.g.cs",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_kfnsn1qd_wpftmp.GlobalUsings.g.cs"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_kfnsn1qd_wpftmp.sourcelink.json",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_kfnsn1qd_wpftmp.sourcelink.json"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_kk50lbvu_wpftmp.AssemblyInfo.cs",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_kk50lbvu_wpftmp.AssemblyInfo.cs"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_kk50lbvu_wpftmp.AssemblyInfoInputs.cache",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_kk50lbvu_wpftmp.AssemblyInfoInputs.cache"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_kk50lbvu_wpftmp.assets.cache",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_kk50lbvu_wpftmp.assets.cache"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_kk50lbvu_wpftmp.csproj.BuildWithSkipAnalyzers",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_kk50lbvu_wpftmp.csproj.BuildWithSkipAnalyzers"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_kk50lbvu_wpftmp.GeneratedMSBuildEditorConfig.editorconfig",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_kk50lbvu_wpftmp.GeneratedMSBuildEditorConfig.editorconfig"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_kk50lbvu_wpftmp.GlobalUsings.g.cs",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_kk50lbvu_wpftmp.GlobalUsings.g.cs"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_kk50lbvu_wpftmp.sourcelink.json",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_kk50lbvu_wpftmp.sourcelink.json"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_knmoenha_wpftmp.AssemblyInfo.cs",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_knmoenha_wpftmp.AssemblyInfo.cs"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_knmoenha_wpftmp.AssemblyInfoInputs.cache",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_knmoenha_wpftmp.AssemblyInfoInputs.cache"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_knmoenha_wpftmp.assets.cache",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_knmoenha_wpftmp.assets.cache"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_knmoenha_wpftmp.GeneratedMSBuildEditorConfig.editorconfig",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_knmoenha_wpftmp.GeneratedMSBuildEditorConfig.editorconfig"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_knmoenha_wpftmp.GlobalUsings.g.cs",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_knmoenha_wpftmp.GlobalUsings.g.cs"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_knmoenha_wpftmp.sourcelink.json",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_knmoenha_wpftmp.sourcelink.json"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_kpswaswv_wpftmp.AssemblyInfo.cs",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_kpswaswv_wpftmp.AssemblyInfo.cs"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_kpswaswv_wpftmp.AssemblyInfoInputs.cache",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_kpswaswv_wpftmp.AssemblyInfoInputs.cache"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_kpswaswv_wpftmp.assets.cache",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_kpswaswv_wpftmp.assets.cache"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_kpswaswv_wpftmp.GeneratedMSBuildEditorConfig.editorconfig",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_kpswaswv_wpftmp.GeneratedMSBuildEditorConfig.editorconfig"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_kpswaswv_wpftmp.GlobalUsings.g.cs",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_kpswaswv_wpftmp.GlobalUsings.g.cs"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_kpswaswv_wpftmp.sourcelink.json",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_kpswaswv_wpftmp.sourcelink.json"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_kqyxrvq2_wpftmp.AssemblyInfo.cs",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_kqyxrvq2_wpftmp.AssemblyInfo.cs"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_kqyxrvq2_wpftmp.AssemblyInfoInputs.cache",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_kqyxrvq2_wpftmp.AssemblyInfoInputs.cache"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_kqyxrvq2_wpftmp.assets.cache",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_kqyxrvq2_wpftmp.assets.cache"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_kqyxrvq2_wpftmp.csproj.BuildWithSkipAnalyzers",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_kqyxrvq2_wpftmp.csproj.BuildWithSkipAnalyzers"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_kqyxrvq2_wpftmp.GeneratedMSBuildEditorConfig.editorconfig",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_kqyxrvq2_wpftmp.GeneratedMSBuildEditorConfig.editorconfig"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_kqyxrvq2_wpftmp.GlobalUsings.g.cs",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_kqyxrvq2_wpftmp.GlobalUsings.g.cs"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_kqyxrvq2_wpftmp.sourcelink.json",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_kqyxrvq2_wpftmp.sourcelink.json"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_l32gecal_wpftmp.AssemblyInfo.cs",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_l32gecal_wpftmp.AssemblyInfo.cs"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_l32gecal_wpftmp.AssemblyInfoInputs.cache",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_l32gecal_wpftmp.AssemblyInfoInputs.cache"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_l32gecal_wpftmp.assets.cache",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_l32gecal_wpftmp.assets.cache"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_l32gecal_wpftmp.GeneratedMSBuildEditorConfig.editorconfig",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_l32gecal_wpftmp.GeneratedMSBuildEditorConfig.editorconfig"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_l32gecal_wpftmp.GlobalUsings.g.cs",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_l32gecal_wpftmp.GlobalUsings.g.cs"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_l32gecal_wpftmp.sourcelink.json",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_l32gecal_wpftmp.sourcelink.json"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_l3x2hapw_wpftmp.AssemblyInfo.cs",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_l3x2hapw_wpftmp.AssemblyInfo.cs"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_l3x2hapw_wpftmp.AssemblyInfoInputs.cache",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_l3x2hapw_wpftmp.AssemblyInfoInputs.cache"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_l3x2hapw_wpftmp.assets.cache",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_l3x2hapw_wpftmp.assets.cache"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_l3x2hapw_wpftmp.GeneratedMSBuildEditorConfig.editorconfig",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_l3x2hapw_wpftmp.GeneratedMSBuildEditorConfig.editorconfig"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_l3x2hapw_wpftmp.GlobalUsings.g.cs",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_l3x2hapw_wpftmp.GlobalUsings.g.cs"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_l3x2hapw_wpftmp.sourcelink.json",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_l3x2hapw_wpftmp.sourcelink.json"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_lmxp5i1b_wpftmp.AssemblyInfo.cs",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_lmxp5i1b_wpftmp.AssemblyInfo.cs"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_lmxp5i1b_wpftmp.AssemblyInfoInputs.cache",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_lmxp5i1b_wpftmp.AssemblyInfoInputs.cache"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_lmxp5i1b_wpftmp.assets.cache",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_lmxp5i1b_wpftmp.assets.cache"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_lmxp5i1b_wpftmp.GeneratedMSBuildEditorConfig.editorconfig",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_lmxp5i1b_wpftmp.GeneratedMSBuildEditorConfig.editorconfig"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_ls4ylyql_wpftmp.AssemblyInfo.cs",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_ls4ylyql_wpftmp.AssemblyInfo.cs"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_ls4ylyql_wpftmp.AssemblyInfoInputs.cache",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_ls4ylyql_wpftmp.AssemblyInfoInputs.cache"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_ls4ylyql_wpftmp.assets.cache",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_ls4ylyql_wpftmp.assets.cache"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_ls4ylyql_wpftmp.GeneratedMSBuildEditorConfig.editorconfig",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_ls4ylyql_wpftmp.GeneratedMSBuildEditorConfig.editorconfig"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_ls4ylyql_wpftmp.GlobalUsings.g.cs",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_ls4ylyql_wpftmp.GlobalUsings.g.cs"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_maq3bgnm_wpftmp.AssemblyInfo.cs",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_maq3bgnm_wpftmp.AssemblyInfo.cs"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_maq3bgnm_wpftmp.AssemblyInfoInputs.cache",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_maq3bgnm_wpftmp.AssemblyInfoInputs.cache"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_maq3bgnm_wpftmp.assets.cache",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_maq3bgnm_wpftmp.assets.cache"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_maq3bgnm_wpftmp.csproj.BuildWithSkipAnalyzers",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_maq3bgnm_wpftmp.csproj.BuildWithSkipAnalyzers"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_maq3bgnm_wpftmp.GeneratedMSBuildEditorConfig.editorconfig",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_maq3bgnm_wpftmp.GeneratedMSBuildEditorConfig.editorconfig"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_maq3bgnm_wpftmp.GlobalUsings.g.cs",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_maq3bgnm_wpftmp.GlobalUsings.g.cs"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_MarkupCompile.cache",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_MarkupCompile.cache"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_MarkupCompile.i.cache",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_MarkupCompile.i.cache"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_MarkupCompile.lref",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_MarkupCompile.lref"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_mhcjhbcy_wpftmp.AssemblyInfo.cs",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_mhcjhbcy_wpftmp.AssemblyInfo.cs"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_mhcjhbcy_wpftmp.AssemblyInfoInputs.cache",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_mhcjhbcy_wpftmp.AssemblyInfoInputs.cache"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_mhcjhbcy_wpftmp.assets.cache",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_mhcjhbcy_wpftmp.assets.cache"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_mhcjhbcy_wpftmp.GeneratedMSBuildEditorConfig.editorconfig",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_mhcjhbcy_wpftmp.GeneratedMSBuildEditorConfig.editorconfig"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_mhcjhbcy_wpftmp.GlobalUsings.g.cs",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_mhcjhbcy_wpftmp.GlobalUsings.g.cs"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_mn0h5wlj_wpftmp.AssemblyInfo.cs",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_mn0h5wlj_wpftmp.AssemblyInfo.cs"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_mn0h5wlj_wpftmp.AssemblyInfoInputs.cache",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_mn0h5wlj_wpftmp.AssemblyInfoInputs.cache"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_mn0h5wlj_wpftmp.assets.cache",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_mn0h5wlj_wpftmp.assets.cache"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_mn0h5wlj_wpftmp.GeneratedMSBuildEditorConfig.editorconfig",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_mn0h5wlj_wpftmp.GeneratedMSBuildEditorConfig.editorconfig"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_mn0h5wlj_wpftmp.GlobalUsings.g.cs",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_mn0h5wlj_wpftmp.GlobalUsings.g.cs"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_mn0h5wlj_wpftmp.sourcelink.json",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_mn0h5wlj_wpftmp.sourcelink.json"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_pgcyp4ns_wpftmp.AssemblyInfo.cs",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_pgcyp4ns_wpftmp.AssemblyInfo.cs"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_pgcyp4ns_wpftmp.AssemblyInfoInputs.cache",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_pgcyp4ns_wpftmp.AssemblyInfoInputs.cache"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_pgcyp4ns_wpftmp.assets.cache",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_pgcyp4ns_wpftmp.assets.cache"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_pgcyp4ns_wpftmp.GeneratedMSBuildEditorConfig.editorconfig",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_pgcyp4ns_wpftmp.GeneratedMSBuildEditorConfig.editorconfig"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_pgcyp4ns_wpftmp.GlobalUsings.g.cs",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_pgcyp4ns_wpftmp.GlobalUsings.g.cs"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_pgcyp4ns_wpftmp.sourcelink.json",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_pgcyp4ns_wpftmp.sourcelink.json"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_pibtbqvg_wpftmp.AssemblyInfo.cs",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_pibtbqvg_wpftmp.AssemblyInfo.cs"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_pibtbqvg_wpftmp.AssemblyInfoInputs.cache",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_pibtbqvg_wpftmp.AssemblyInfoInputs.cache"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_pibtbqvg_wpftmp.assets.cache",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_pibtbqvg_wpftmp.assets.cache"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_pibtbqvg_wpftmp.GeneratedMSBuildEditorConfig.editorconfig",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_pibtbqvg_wpftmp.GeneratedMSBuildEditorConfig.editorconfig"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_pibtbqvg_wpftmp.GlobalUsings.g.cs",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_pibtbqvg_wpftmp.GlobalUsings.g.cs"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_pibtbqvg_wpftmp.sourcelink.json",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_pibtbqvg_wpftmp.sourcelink.json"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_qc2tspis_wpftmp.AssemblyInfo.cs",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_qc2tspis_wpftmp.AssemblyInfo.cs"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_qc2tspis_wpftmp.AssemblyInfoInputs.cache",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_qc2tspis_wpftmp.AssemblyInfoInputs.cache"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_qc2tspis_wpftmp.assets.cache",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_qc2tspis_wpftmp.assets.cache"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_qc2tspis_wpftmp.GeneratedMSBuildEditorConfig.editorconfig",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_qc2tspis_wpftmp.GeneratedMSBuildEditorConfig.editorconfig"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_qctjsev5_wpftmp.AssemblyInfo.cs",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_qctjsev5_wpftmp.AssemblyInfo.cs"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_qctjsev5_wpftmp.AssemblyInfoInputs.cache",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_qctjsev5_wpftmp.AssemblyInfoInputs.cache"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_qctjsev5_wpftmp.assets.cache",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_qctjsev5_wpftmp.assets.cache"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_qctjsev5_wpftmp.GeneratedMSBuildEditorConfig.editorconfig",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_qctjsev5_wpftmp.GeneratedMSBuildEditorConfig.editorconfig"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_qctjsev5_wpftmp.GlobalUsings.g.cs",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_qctjsev5_wpftmp.GlobalUsings.g.cs"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_qctjsev5_wpftmp.sourcelink.json",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_qctjsev5_wpftmp.sourcelink.json"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_qfedpom2_wpftmp.AssemblyInfo.cs",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_qfedpom2_wpftmp.AssemblyInfo.cs"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_qfedpom2_wpftmp.AssemblyInfoInputs.cache",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_qfedpom2_wpftmp.AssemblyInfoInputs.cache"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_qfedpom2_wpftmp.assets.cache",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_qfedpom2_wpftmp.assets.cache"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_qfedpom2_wpftmp.csproj.BuildWithSkipAnalyzers",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_qfedpom2_wpftmp.csproj.BuildWithSkipAnalyzers"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_qfedpom2_wpftmp.GeneratedMSBuildEditorConfig.editorconfig",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_qfedpom2_wpftmp.GeneratedMSBuildEditorConfig.editorconfig"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_qs1hnmur_wpftmp.AssemblyInfo.cs",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_qs1hnmur_wpftmp.AssemblyInfo.cs"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_qs1hnmur_wpftmp.AssemblyInfoInputs.cache",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_qs1hnmur_wpftmp.AssemblyInfoInputs.cache"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_qs1hnmur_wpftmp.assets.cache",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_qs1hnmur_wpftmp.assets.cache"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_qs1hnmur_wpftmp.csproj.BuildWithSkipAnalyzers",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_qs1hnmur_wpftmp.csproj.BuildWithSkipAnalyzers"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_qs1hnmur_wpftmp.GeneratedMSBuildEditorConfig.editorconfig",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_qs1hnmur_wpftmp.GeneratedMSBuildEditorConfig.editorconfig"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_qs1hnmur_wpftmp.GlobalUsings.g.cs",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_qs1hnmur_wpftmp.GlobalUsings.g.cs"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_qs1hnmur_wpftmp.sourcelink.json",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_qs1hnmur_wpftmp.sourcelink.json"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_r2evk2sp_wpftmp.AssemblyInfo.cs",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_r2evk2sp_wpftmp.AssemblyInfo.cs"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_r2evk2sp_wpftmp.AssemblyInfoInputs.cache",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_r2evk2sp_wpftmp.AssemblyInfoInputs.cache"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_r2evk2sp_wpftmp.assets.cache",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_r2evk2sp_wpftmp.assets.cache"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_r2evk2sp_wpftmp.GeneratedMSBuildEditorConfig.editorconfig",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_r2evk2sp_wpftmp.GeneratedMSBuildEditorConfig.editorconfig"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_r2evk2sp_wpftmp.GlobalUsings.g.cs",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_r2evk2sp_wpftmp.GlobalUsings.g.cs"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_r2evk2sp_wpftmp.sourcelink.json",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_r2evk2sp_wpftmp.sourcelink.json"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_r3z0dgyz_wpftmp.AssemblyInfo.cs",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_r3z0dgyz_wpftmp.AssemblyInfo.cs"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_r3z0dgyz_wpftmp.AssemblyInfoInputs.cache",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_r3z0dgyz_wpftmp.AssemblyInfoInputs.cache"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_r3z0dgyz_wpftmp.assets.cache",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_r3z0dgyz_wpftmp.assets.cache"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_r3z0dgyz_wpftmp.GeneratedMSBuildEditorConfig.editorconfig",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_r3z0dgyz_wpftmp.GeneratedMSBuildEditorConfig.editorconfig"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_r3z0dgyz_wpftmp.GlobalUsings.g.cs",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_r3z0dgyz_wpftmp.GlobalUsings.g.cs"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_sbs4okt1_wpftmp.AssemblyInfo.cs",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_sbs4okt1_wpftmp.AssemblyInfo.cs"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_sbs4okt1_wpftmp.AssemblyInfoInputs.cache",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_sbs4okt1_wpftmp.AssemblyInfoInputs.cache"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_sbs4okt1_wpftmp.assets.cache",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_sbs4okt1_wpftmp.assets.cache"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_sbs4okt1_wpftmp.GeneratedMSBuildEditorConfig.editorconfig",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_sbs4okt1_wpftmp.GeneratedMSBuildEditorConfig.editorconfig"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_smzllece_wpftmp.AssemblyInfo.cs",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_smzllece_wpftmp.AssemblyInfo.cs"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_smzllece_wpftmp.AssemblyInfoInputs.cache",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_smzllece_wpftmp.AssemblyInfoInputs.cache"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_smzllece_wpftmp.assets.cache",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_smzllece_wpftmp.assets.cache"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_smzllece_wpftmp.GeneratedMSBuildEditorConfig.editorconfig",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_smzllece_wpftmp.GeneratedMSBuildEditorConfig.editorconfig"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_smzllece_wpftmp.GlobalUsings.g.cs",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_smzllece_wpftmp.GlobalUsings.g.cs"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_smzllece_wpftmp.sourcelink.json",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_smzllece_wpftmp.sourcelink.json"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_tpg0cl0l_wpftmp.AssemblyInfo.cs",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_tpg0cl0l_wpftmp.AssemblyInfo.cs"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_tpg0cl0l_wpftmp.AssemblyInfoInputs.cache",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_tpg0cl0l_wpftmp.AssemblyInfoInputs.cache"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_tpg0cl0l_wpftmp.assets.cache",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_tpg0cl0l_wpftmp.assets.cache"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_tpg0cl0l_wpftmp.csproj.BuildWithSkipAnalyzers",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_tpg0cl0l_wpftmp.csproj.BuildWithSkipAnalyzers"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_tpg0cl0l_wpftmp.GeneratedMSBuildEditorConfig.editorconfig",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_tpg0cl0l_wpftmp.GeneratedMSBuildEditorConfig.editorconfig"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_tpg0cl0l_wpftmp.GlobalUsings.g.cs",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_tpg0cl0l_wpftmp.GlobalUsings.g.cs"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_tpg0cl0l_wpftmp.sourcelink.json",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_tpg0cl0l_wpftmp.sourcelink.json"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_vvinzubf_wpftmp.AssemblyInfo.cs",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_vvinzubf_wpftmp.AssemblyInfo.cs"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_vvinzubf_wpftmp.AssemblyInfoInputs.cache",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_vvinzubf_wpftmp.AssemblyInfoInputs.cache"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_vvinzubf_wpftmp.assets.cache",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_vvinzubf_wpftmp.assets.cache"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_vvinzubf_wpftmp.csproj.BuildWithSkipAnalyzers",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_vvinzubf_wpftmp.csproj.BuildWithSkipAnalyzers"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_vvinzubf_wpftmp.GeneratedMSBuildEditorConfig.editorconfig",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_vvinzubf_wpftmp.GeneratedMSBuildEditorConfig.editorconfig"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_vvinzubf_wpftmp.GlobalUsings.g.cs",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_vvinzubf_wpftmp.GlobalUsings.g.cs"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_vvinzubf_wpftmp.sourcelink.json",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_vvinzubf_wpftmp.sourcelink.json"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_w3rxfq50_wpftmp.AssemblyInfo.cs",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_w3rxfq50_wpftmp.AssemblyInfo.cs"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_w3rxfq50_wpftmp.AssemblyInfoInputs.cache",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_w3rxfq50_wpftmp.AssemblyInfoInputs.cache"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_w3rxfq50_wpftmp.assets.cache",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_w3rxfq50_wpftmp.assets.cache"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_w3rxfq50_wpftmp.csproj.BuildWithSkipAnalyzers",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_w3rxfq50_wpftmp.csproj.BuildWithSkipAnalyzers"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_w3rxfq50_wpftmp.GeneratedMSBuildEditorConfig.editorconfig",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_w3rxfq50_wpftmp.GeneratedMSBuildEditorConfig.editorconfig"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_w3rxfq50_wpftmp.GlobalUsings.g.cs",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_w3rxfq50_wpftmp.GlobalUsings.g.cs"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_w3rxfq50_wpftmp.sourcelink.json",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_w3rxfq50_wpftmp.sourcelink.json"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_wnh5f2uj_wpftmp.AssemblyInfo.cs",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_wnh5f2uj_wpftmp.AssemblyInfo.cs"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_wnh5f2uj_wpftmp.AssemblyInfoInputs.cache",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_wnh5f2uj_wpftmp.AssemblyInfoInputs.cache"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_wnh5f2uj_wpftmp.assets.cache",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_wnh5f2uj_wpftmp.assets.cache"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_wnh5f2uj_wpftmp.csproj.BuildWithSkipAnalyzers",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_wnh5f2uj_wpftmp.csproj.BuildWithSkipAnalyzers"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_wnh5f2uj_wpftmp.GeneratedMSBuildEditorConfig.editorconfig",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_wnh5f2uj_wpftmp.GeneratedMSBuildEditorConfig.editorconfig"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_wnh5f2uj_wpftmp.GlobalUsings.g.cs",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_wnh5f2uj_wpftmp.GlobalUsings.g.cs"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_wnh5f2uj_wpftmp.sourcelink.json",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_wnh5f2uj_wpftmp.sourcelink.json"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_wvetddwc_wpftmp.AssemblyInfo.cs",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_wvetddwc_wpftmp.AssemblyInfo.cs"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_wvetddwc_wpftmp.AssemblyInfoInputs.cache",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_wvetddwc_wpftmp.AssemblyInfoInputs.cache"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_wvetddwc_wpftmp.assets.cache",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_wvetddwc_wpftmp.assets.cache"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_wvetddwc_wpftmp.GeneratedMSBuildEditorConfig.editorconfig",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_wvetddwc_wpftmp.GeneratedMSBuildEditorConfig.editorconfig"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_wvetddwc_wpftmp.GlobalUsings.g.cs",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_wvetddwc_wpftmp.GlobalUsings.g.cs"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_wvetddwc_wpftmp.sourcelink.json",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_wvetddwc_wpftmp.sourcelink.json"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_x5cavsxf_wpftmp.AssemblyInfo.cs",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_x5cavsxf_wpftmp.AssemblyInfo.cs"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_x5cavsxf_wpftmp.AssemblyInfoInputs.cache",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_x5cavsxf_wpftmp.AssemblyInfoInputs.cache"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_x5cavsxf_wpftmp.assets.cache",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_x5cavsxf_wpftmp.assets.cache"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_x5cavsxf_wpftmp.GeneratedMSBuildEditorConfig.editorconfig",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_x5cavsxf_wpftmp.GeneratedMSBuildEditorConfig.editorconfig"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_x5cavsxf_wpftmp.GlobalUsings.g.cs",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_x5cavsxf_wpftmp.GlobalUsings.g.cs"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_x5cavsxf_wpftmp.sourcelink.json",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_x5cavsxf_wpftmp.sourcelink.json"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_y3zi2irp_wpftmp.AssemblyInfo.cs",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_y3zi2irp_wpftmp.AssemblyInfo.cs"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_y3zi2irp_wpftmp.AssemblyInfoInputs.cache",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_y3zi2irp_wpftmp.AssemblyInfoInputs.cache"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_y3zi2irp_wpftmp.assets.cache",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_y3zi2irp_wpftmp.assets.cache"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_y3zi2irp_wpftmp.GeneratedMSBuildEditorConfig.editorconfig",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_y3zi2irp_wpftmp.GeneratedMSBuildEditorConfig.editorconfig"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_yindcjqn_wpftmp.AssemblyInfo.cs",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_yindcjqn_wpftmp.AssemblyInfo.cs"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_yindcjqn_wpftmp.AssemblyInfoInputs.cache",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_yindcjqn_wpftmp.AssemblyInfoInputs.cache"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_yindcjqn_wpftmp.assets.cache",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_yindcjqn_wpftmp.assets.cache"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_yindcjqn_wpftmp.GeneratedMSBuildEditorConfig.editorconfig",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_yindcjqn_wpftmp.GeneratedMSBuildEditorConfig.editorconfig"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_yindcjqn_wpftmp.GlobalUsings.g.cs",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_yindcjqn_wpftmp.GlobalUsings.g.cs"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_yindcjqn_wpftmp.sourcelink.json",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_yindcjqn_wpftmp.sourcelink.json"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_zwatcyad_wpftmp.AssemblyInfo.cs",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_zwatcyad_wpftmp.AssemblyInfo.cs"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_zwatcyad_wpftmp.AssemblyInfoInputs.cache",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_zwatcyad_wpftmp.AssemblyInfoInputs.cache"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_zwatcyad_wpftmp.assets.cache",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_zwatcyad_wpftmp.assets.cache"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_zwatcyad_wpftmp.csproj.BuildWithSkipAnalyzers",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_zwatcyad_wpftmp.csproj.BuildWithSkipAnalyzers"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_zwatcyad_wpftmp.GeneratedMSBuildEditorConfig.editorconfig",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_zwatcyad_wpftmp.GeneratedMSBuildEditorConfig.editorconfig"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_zwatcyad_wpftmp.GlobalUsings.g.cs",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_zwatcyad_wpftmp.GlobalUsings.g.cs"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_zwatcyad_wpftmp.sourcelink.json",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_zwatcyad_wpftmp.sourcelink.json"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher.AssemblyInfo.cs",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher.AssemblyInfo.cs"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher.AssemblyInfoInputs.cache",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher.AssemblyInfoInputs.cache"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher.assets.cache",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher.assets.cache"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher.csproj.BuildWithSkipAnalyzers",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher.csproj.BuildWithSkipAnalyzers"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher.csproj.CoreCompileInputs.cache",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher.csproj.CoreCompileInputs.cache"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher.csproj.FileListAbsolute.txt",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher.csproj.FileListAbsolute.txt"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher.designer.deps.json",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher.designer.deps.json"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher.designer.runtimeconfig.json",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher.designer.runtimeconfig.json"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher.dll",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher.dll"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher.g.resources",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher.g.resources"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher.GeneratedMSBuildEditorConfig.editorconfig",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher.GeneratedMSBuildEditorConfig.editorconfig"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher.genruntimeconfig.cache",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher.genruntimeconfig.cache"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher.GlobalUsings.g.cs",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher.GlobalUsings.g.cs"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher.pdb",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher.pdb"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher.sourcelink.json",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher.sourcelink.json"
+                  },
+                  {
+                    "type": "file",
+                    "name": "ProfileDialog.baml",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\ProfileDialog.baml"
+                  },
+                  {
+                    "type": "file",
+                    "name": "ProfileDialog.g.cs",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\ProfileDialog.g.cs"
+                  },
+                  {
+                    "type": "file",
+                    "name": "ProfileDialog.g.i.cs",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\ProfileDialog.g.i.cs"
+                  },
+                  {
+                    "type": "file",
+                    "name": "ProfileNameDialog.g.i.cs",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\ProfileNameDialog.g.i.cs"
+                  }
+                ]
+              },
+              {
+                "type": "directory",
+                "name": "net8.0-windows10.0.17763.0",
+                "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows10.0.17763.0",
+                "children": [
+                  {
+                    "type": "directory",
+                    "name": "ref",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows10.0.17763.0\\ref",
+                    "children": [
+                      {
+                        "type": "file",
+                        "name": "MonitorRefreshRateSwitcher.dll",
+                        "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows10.0.17763.0\\ref\\MonitorRefreshRateSwitcher.dll"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "directory",
+                    "name": "refint",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows10.0.17763.0\\refint",
+                    "children": [
+                      {
+                        "type": "file",
+                        "name": "MonitorRefreshRateSwitcher.dll",
+                        "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows10.0.17763.0\\refint\\MonitorRefreshRateSwitcher.dll"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "file",
+                    "name": ".NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows10.0.17763.0\\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs"
+                  },
+                  {
+                    "type": "file",
+                    "name": "App.g.cs",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows10.0.17763.0\\App.g.cs"
+                  },
+                  {
+                    "type": "file",
+                    "name": "App.g.i.cs",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows10.0.17763.0\\App.g.i.cs"
+                  },
+                  {
+                    "type": "file",
+                    "name": "apphost.exe",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows10.0.17763.0\\apphost.exe"
+                  },
+                  {
+                    "type": "file",
+                    "name": "HotkeyDialog.baml",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows10.0.17763.0\\HotkeyDialog.baml"
+                  },
+                  {
+                    "type": "file",
+                    "name": "HotkeyDialog.g.cs",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows10.0.17763.0\\HotkeyDialog.g.cs"
+                  },
+                  {
+                    "type": "file",
+                    "name": "HotkeyDialog.g.i.cs",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows10.0.17763.0\\HotkeyDialog.g.i.cs"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MainWindow.baml",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows10.0.17763.0\\MainWindow.baml"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MainWindow.g.cs",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows10.0.17763.0\\MainWindow.g.cs"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MainWindow.g.i.cs",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows10.0.17763.0\\MainWindow.g.i.cs"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorR.71A4474B.Up2Date",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows10.0.17763.0\\MonitorR.71A4474B.Up2Date"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_4xdj0syx_wpftmp.AssemblyInfo.cs",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows10.0.17763.0\\MonitorRefreshRateSwitcher_4xdj0syx_wpftmp.AssemblyInfo.cs"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_4xdj0syx_wpftmp.AssemblyInfoInputs.cache",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows10.0.17763.0\\MonitorRefreshRateSwitcher_4xdj0syx_wpftmp.AssemblyInfoInputs.cache"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_4xdj0syx_wpftmp.assets.cache",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows10.0.17763.0\\MonitorRefreshRateSwitcher_4xdj0syx_wpftmp.assets.cache"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_4xdj0syx_wpftmp.GeneratedMSBuildEditorConfig.editorconfig",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows10.0.17763.0\\MonitorRefreshRateSwitcher_4xdj0syx_wpftmp.GeneratedMSBuildEditorConfig.editorconfig"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_4xdj0syx_wpftmp.GlobalUsings.g.cs",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows10.0.17763.0\\MonitorRefreshRateSwitcher_4xdj0syx_wpftmp.GlobalUsings.g.cs"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_4xdj0syx_wpftmp.sourcelink.json",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows10.0.17763.0\\MonitorRefreshRateSwitcher_4xdj0syx_wpftmp.sourcelink.json"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_krtuftsw_wpftmp.AssemblyInfo.cs",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows10.0.17763.0\\MonitorRefreshRateSwitcher_krtuftsw_wpftmp.AssemblyInfo.cs"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_krtuftsw_wpftmp.AssemblyInfoInputs.cache",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows10.0.17763.0\\MonitorRefreshRateSwitcher_krtuftsw_wpftmp.AssemblyInfoInputs.cache"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_krtuftsw_wpftmp.assets.cache",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows10.0.17763.0\\MonitorRefreshRateSwitcher_krtuftsw_wpftmp.assets.cache"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_krtuftsw_wpftmp.csproj.BuildWithSkipAnalyzers",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows10.0.17763.0\\MonitorRefreshRateSwitcher_krtuftsw_wpftmp.csproj.BuildWithSkipAnalyzers"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_krtuftsw_wpftmp.GeneratedMSBuildEditorConfig.editorconfig",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows10.0.17763.0\\MonitorRefreshRateSwitcher_krtuftsw_wpftmp.GeneratedMSBuildEditorConfig.editorconfig"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_krtuftsw_wpftmp.GlobalUsings.g.cs",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows10.0.17763.0\\MonitorRefreshRateSwitcher_krtuftsw_wpftmp.GlobalUsings.g.cs"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_krtuftsw_wpftmp.sourcelink.json",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows10.0.17763.0\\MonitorRefreshRateSwitcher_krtuftsw_wpftmp.sourcelink.json"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_MarkupCompile.cache",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows10.0.17763.0\\MonitorRefreshRateSwitcher_MarkupCompile.cache"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_MarkupCompile.i.cache",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows10.0.17763.0\\MonitorRefreshRateSwitcher_MarkupCompile.i.cache"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_MarkupCompile.i.lref",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows10.0.17763.0\\MonitorRefreshRateSwitcher_MarkupCompile.i.lref"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_MarkupCompile.lref",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows10.0.17763.0\\MonitorRefreshRateSwitcher_MarkupCompile.lref"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher.AssemblyInfo.cs",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows10.0.17763.0\\MonitorRefreshRateSwitcher.AssemblyInfo.cs"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher.AssemblyInfoInputs.cache",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows10.0.17763.0\\MonitorRefreshRateSwitcher.AssemblyInfoInputs.cache"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher.assets.cache",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows10.0.17763.0\\MonitorRefreshRateSwitcher.assets.cache"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher.csproj.AssemblyReference.cache",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows10.0.17763.0\\MonitorRefreshRateSwitcher.csproj.AssemblyReference.cache"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher.csproj.BuildWithSkipAnalyzers",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows10.0.17763.0\\MonitorRefreshRateSwitcher.csproj.BuildWithSkipAnalyzers"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher.csproj.CoreCompileInputs.cache",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows10.0.17763.0\\MonitorRefreshRateSwitcher.csproj.CoreCompileInputs.cache"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher.csproj.FileListAbsolute.txt",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows10.0.17763.0\\MonitorRefreshRateSwitcher.csproj.FileListAbsolute.txt"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher.dll",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows10.0.17763.0\\MonitorRefreshRateSwitcher.dll"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher.g.resources",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows10.0.17763.0\\MonitorRefreshRateSwitcher.g.resources"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher.GeneratedMSBuildEditorConfig.editorconfig",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows10.0.17763.0\\MonitorRefreshRateSwitcher.GeneratedMSBuildEditorConfig.editorconfig"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher.genruntimeconfig.cache",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows10.0.17763.0\\MonitorRefreshRateSwitcher.genruntimeconfig.cache"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher.GlobalUsings.g.cs",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows10.0.17763.0\\MonitorRefreshRateSwitcher.GlobalUsings.g.cs"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher.pdb",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows10.0.17763.0\\MonitorRefreshRateSwitcher.pdb"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher.sourcelink.json",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows10.0.17763.0\\MonitorRefreshRateSwitcher.sourcelink.json"
+                  },
+                  {
+                    "type": "file",
+                    "name": "ProfileNameDialog.baml",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows10.0.17763.0\\ProfileNameDialog.baml"
+                  },
+                  {
+                    "type": "file",
+                    "name": "ProfileNameDialog.g.cs",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows10.0.17763.0\\ProfileNameDialog.g.cs"
+                  },
+                  {
+                    "type": "file",
+                    "name": "ProfileNameDialog.g.i.cs",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows10.0.17763.0\\ProfileNameDialog.g.i.cs"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "file",
+            "name": "MonitorRefreshRateSwitcher_4xdj0syx_wpftmp.csproj.nuget.dgspec.json",
+            "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\MonitorRefreshRateSwitcher_4xdj0syx_wpftmp.csproj.nuget.dgspec.json"
+          },
+          {
+            "type": "file",
+            "name": "MonitorRefreshRateSwitcher_4xdj0syx_wpftmp.csproj.nuget.g.props",
+            "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\MonitorRefreshRateSwitcher_4xdj0syx_wpftmp.csproj.nuget.g.props"
+          },
+          {
+            "type": "file",
+            "name": "MonitorRefreshRateSwitcher_4xdj0syx_wpftmp.csproj.nuget.g.targets",
+            "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\MonitorRefreshRateSwitcher_4xdj0syx_wpftmp.csproj.nuget.g.targets"
+          },
+          {
+            "type": "file",
+            "name": "MonitorRefreshRateSwitcher_4zrullkh_wpftmp.csproj.nuget.dgspec.json",
+            "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\MonitorRefreshRateSwitcher_4zrullkh_wpftmp.csproj.nuget.dgspec.json"
+          },
+          {
+            "type": "file",
+            "name": "MonitorRefreshRateSwitcher_4zrullkh_wpftmp.csproj.nuget.g.props",
+            "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\MonitorRefreshRateSwitcher_4zrullkh_wpftmp.csproj.nuget.g.props"
+          },
+          {
+            "type": "file",
+            "name": "MonitorRefreshRateSwitcher_4zrullkh_wpftmp.csproj.nuget.g.targets",
+            "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\MonitorRefreshRateSwitcher_4zrullkh_wpftmp.csproj.nuget.g.targets"
+          },
+          {
+            "type": "file",
+            "name": "MonitorRefreshRateSwitcher_5as5jrip_wpftmp.csproj.nuget.dgspec.json",
+            "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\MonitorRefreshRateSwitcher_5as5jrip_wpftmp.csproj.nuget.dgspec.json"
+          },
+          {
+            "type": "file",
+            "name": "MonitorRefreshRateSwitcher_5as5jrip_wpftmp.csproj.nuget.g.props",
+            "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\MonitorRefreshRateSwitcher_5as5jrip_wpftmp.csproj.nuget.g.props"
+          },
+          {
+            "type": "file",
+            "name": "MonitorRefreshRateSwitcher_5as5jrip_wpftmp.csproj.nuget.g.targets",
+            "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\MonitorRefreshRateSwitcher_5as5jrip_wpftmp.csproj.nuget.g.targets"
+          },
+          {
+            "type": "file",
+            "name": "MonitorRefreshRateSwitcher_d0rgyjhi_wpftmp.csproj.nuget.dgspec.json",
+            "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\MonitorRefreshRateSwitcher_d0rgyjhi_wpftmp.csproj.nuget.dgspec.json"
+          },
+          {
+            "type": "file",
+            "name": "MonitorRefreshRateSwitcher_d0rgyjhi_wpftmp.csproj.nuget.g.props",
+            "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\MonitorRefreshRateSwitcher_d0rgyjhi_wpftmp.csproj.nuget.g.props"
+          },
+          {
+            "type": "file",
+            "name": "MonitorRefreshRateSwitcher_d0rgyjhi_wpftmp.csproj.nuget.g.targets",
+            "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\MonitorRefreshRateSwitcher_d0rgyjhi_wpftmp.csproj.nuget.g.targets"
+          },
+          {
+            "type": "file",
+            "name": "MonitorRefreshRateSwitcher_gqnjlpzo_wpftmp.csproj.nuget.dgspec.json",
+            "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\MonitorRefreshRateSwitcher_gqnjlpzo_wpftmp.csproj.nuget.dgspec.json"
+          },
+          {
+            "type": "file",
+            "name": "MonitorRefreshRateSwitcher_gqnjlpzo_wpftmp.csproj.nuget.g.props",
+            "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\MonitorRefreshRateSwitcher_gqnjlpzo_wpftmp.csproj.nuget.g.props"
+          },
+          {
+            "type": "file",
+            "name": "MonitorRefreshRateSwitcher_gqnjlpzo_wpftmp.csproj.nuget.g.targets",
+            "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\MonitorRefreshRateSwitcher_gqnjlpzo_wpftmp.csproj.nuget.g.targets"
+          },
+          {
+            "type": "file",
+            "name": "MonitorRefreshRateSwitcher_gspwrwej_wpftmp.csproj.nuget.dgspec.json",
+            "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\MonitorRefreshRateSwitcher_gspwrwej_wpftmp.csproj.nuget.dgspec.json"
+          },
+          {
+            "type": "file",
+            "name": "MonitorRefreshRateSwitcher_gspwrwej_wpftmp.csproj.nuget.g.props",
+            "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\MonitorRefreshRateSwitcher_gspwrwej_wpftmp.csproj.nuget.g.props"
+          },
+          {
+            "type": "file",
+            "name": "MonitorRefreshRateSwitcher_gspwrwej_wpftmp.csproj.nuget.g.targets",
+            "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\MonitorRefreshRateSwitcher_gspwrwej_wpftmp.csproj.nuget.g.targets"
+          },
+          {
+            "type": "file",
+            "name": "MonitorRefreshRateSwitcher_h1wyqgzq_wpftmp.csproj.nuget.dgspec.json",
+            "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\MonitorRefreshRateSwitcher_h1wyqgzq_wpftmp.csproj.nuget.dgspec.json"
+          },
+          {
+            "type": "file",
+            "name": "MonitorRefreshRateSwitcher_h1wyqgzq_wpftmp.csproj.nuget.g.props",
+            "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\MonitorRefreshRateSwitcher_h1wyqgzq_wpftmp.csproj.nuget.g.props"
+          },
+          {
+            "type": "file",
+            "name": "MonitorRefreshRateSwitcher_h1wyqgzq_wpftmp.csproj.nuget.g.targets",
+            "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\MonitorRefreshRateSwitcher_h1wyqgzq_wpftmp.csproj.nuget.g.targets"
+          },
+          {
+            "type": "file",
+            "name": "MonitorRefreshRateSwitcher_hvbjihh0_wpftmp.csproj.nuget.dgspec.json",
+            "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\MonitorRefreshRateSwitcher_hvbjihh0_wpftmp.csproj.nuget.dgspec.json"
+          },
+          {
+            "type": "file",
+            "name": "MonitorRefreshRateSwitcher_hvbjihh0_wpftmp.csproj.nuget.g.props",
+            "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\MonitorRefreshRateSwitcher_hvbjihh0_wpftmp.csproj.nuget.g.props"
+          },
+          {
+            "type": "file",
+            "name": "MonitorRefreshRateSwitcher_hvbjihh0_wpftmp.csproj.nuget.g.targets",
+            "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\MonitorRefreshRateSwitcher_hvbjihh0_wpftmp.csproj.nuget.g.targets"
+          },
+          {
+            "type": "file",
+            "name": "MonitorRefreshRateSwitcher_j2qgog2g_wpftmp.csproj.nuget.dgspec.json",
+            "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\MonitorRefreshRateSwitcher_j2qgog2g_wpftmp.csproj.nuget.dgspec.json"
+          },
+          {
+            "type": "file",
+            "name": "MonitorRefreshRateSwitcher_j2qgog2g_wpftmp.csproj.nuget.g.props",
+            "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\MonitorRefreshRateSwitcher_j2qgog2g_wpftmp.csproj.nuget.g.props"
+          },
+          {
+            "type": "file",
+            "name": "MonitorRefreshRateSwitcher_j2qgog2g_wpftmp.csproj.nuget.g.targets",
+            "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\MonitorRefreshRateSwitcher_j2qgog2g_wpftmp.csproj.nuget.g.targets"
+          },
+          {
+            "type": "file",
+            "name": "MonitorRefreshRateSwitcher_kbvihwul_wpftmp.csproj.nuget.dgspec.json",
+            "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\MonitorRefreshRateSwitcher_kbvihwul_wpftmp.csproj.nuget.dgspec.json"
+          },
+          {
+            "type": "file",
+            "name": "MonitorRefreshRateSwitcher_kbvihwul_wpftmp.csproj.nuget.g.props",
+            "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\MonitorRefreshRateSwitcher_kbvihwul_wpftmp.csproj.nuget.g.props"
+          },
+          {
+            "type": "file",
+            "name": "MonitorRefreshRateSwitcher_kbvihwul_wpftmp.csproj.nuget.g.targets",
+            "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\MonitorRefreshRateSwitcher_kbvihwul_wpftmp.csproj.nuget.g.targets"
+          },
+          {
+            "type": "file",
+            "name": "MonitorRefreshRateSwitcher_kfnsn1qd_wpftmp.csproj.nuget.dgspec.json",
+            "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\MonitorRefreshRateSwitcher_kfnsn1qd_wpftmp.csproj.nuget.dgspec.json"
+          },
+          {
+            "type": "file",
+            "name": "MonitorRefreshRateSwitcher_kfnsn1qd_wpftmp.csproj.nuget.g.props",
+            "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\MonitorRefreshRateSwitcher_kfnsn1qd_wpftmp.csproj.nuget.g.props"
+          },
+          {
+            "type": "file",
+            "name": "MonitorRefreshRateSwitcher_kfnsn1qd_wpftmp.csproj.nuget.g.targets",
+            "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\MonitorRefreshRateSwitcher_kfnsn1qd_wpftmp.csproj.nuget.g.targets"
+          },
+          {
+            "type": "file",
+            "name": "MonitorRefreshRateSwitcher_knmoenha_wpftmp.csproj.nuget.dgspec.json",
+            "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\MonitorRefreshRateSwitcher_knmoenha_wpftmp.csproj.nuget.dgspec.json"
+          },
+          {
+            "type": "file",
+            "name": "MonitorRefreshRateSwitcher_knmoenha_wpftmp.csproj.nuget.g.props",
+            "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\MonitorRefreshRateSwitcher_knmoenha_wpftmp.csproj.nuget.g.props"
+          },
+          {
+            "type": "file",
+            "name": "MonitorRefreshRateSwitcher_knmoenha_wpftmp.csproj.nuget.g.targets",
+            "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\MonitorRefreshRateSwitcher_knmoenha_wpftmp.csproj.nuget.g.targets"
+          },
+          {
+            "type": "file",
+            "name": "MonitorRefreshRateSwitcher_l32gecal_wpftmp.csproj.nuget.dgspec.json",
+            "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\MonitorRefreshRateSwitcher_l32gecal_wpftmp.csproj.nuget.dgspec.json"
+          },
+          {
+            "type": "file",
+            "name": "MonitorRefreshRateSwitcher_l32gecal_wpftmp.csproj.nuget.g.props",
+            "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\MonitorRefreshRateSwitcher_l32gecal_wpftmp.csproj.nuget.g.props"
+          },
+          {
+            "type": "file",
+            "name": "MonitorRefreshRateSwitcher_l32gecal_wpftmp.csproj.nuget.g.targets",
+            "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\MonitorRefreshRateSwitcher_l32gecal_wpftmp.csproj.nuget.g.targets"
+          },
+          {
+            "type": "file",
+            "name": "MonitorRefreshRateSwitcher_lmxp5i1b_wpftmp.csproj.nuget.dgspec.json",
+            "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\MonitorRefreshRateSwitcher_lmxp5i1b_wpftmp.csproj.nuget.dgspec.json"
+          },
+          {
+            "type": "file",
+            "name": "MonitorRefreshRateSwitcher_lmxp5i1b_wpftmp.csproj.nuget.g.props",
+            "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\MonitorRefreshRateSwitcher_lmxp5i1b_wpftmp.csproj.nuget.g.props"
+          },
+          {
+            "type": "file",
+            "name": "MonitorRefreshRateSwitcher_lmxp5i1b_wpftmp.csproj.nuget.g.targets",
+            "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\MonitorRefreshRateSwitcher_lmxp5i1b_wpftmp.csproj.nuget.g.targets"
+          },
+          {
+            "type": "file",
+            "name": "MonitorRefreshRateSwitcher_ls4ylyql_wpftmp.csproj.nuget.dgspec.json",
+            "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\MonitorRefreshRateSwitcher_ls4ylyql_wpftmp.csproj.nuget.dgspec.json"
+          },
+          {
+            "type": "file",
+            "name": "MonitorRefreshRateSwitcher_ls4ylyql_wpftmp.csproj.nuget.g.props",
+            "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\MonitorRefreshRateSwitcher_ls4ylyql_wpftmp.csproj.nuget.g.props"
+          },
+          {
+            "type": "file",
+            "name": "MonitorRefreshRateSwitcher_ls4ylyql_wpftmp.csproj.nuget.g.targets",
+            "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\MonitorRefreshRateSwitcher_ls4ylyql_wpftmp.csproj.nuget.g.targets"
+          },
+          {
+            "type": "file",
+            "name": "MonitorRefreshRateSwitcher_mhcjhbcy_wpftmp.csproj.nuget.dgspec.json",
+            "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\MonitorRefreshRateSwitcher_mhcjhbcy_wpftmp.csproj.nuget.dgspec.json"
+          },
+          {
+            "type": "file",
+            "name": "MonitorRefreshRateSwitcher_mhcjhbcy_wpftmp.csproj.nuget.g.props",
+            "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\MonitorRefreshRateSwitcher_mhcjhbcy_wpftmp.csproj.nuget.g.props"
+          },
+          {
+            "type": "file",
+            "name": "MonitorRefreshRateSwitcher_mhcjhbcy_wpftmp.csproj.nuget.g.targets",
+            "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\MonitorRefreshRateSwitcher_mhcjhbcy_wpftmp.csproj.nuget.g.targets"
+          },
+          {
+            "type": "file",
+            "name": "MonitorRefreshRateSwitcher_mn0h5wlj_wpftmp.csproj.nuget.dgspec.json",
+            "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\MonitorRefreshRateSwitcher_mn0h5wlj_wpftmp.csproj.nuget.dgspec.json"
+          },
+          {
+            "type": "file",
+            "name": "MonitorRefreshRateSwitcher_mn0h5wlj_wpftmp.csproj.nuget.g.props",
+            "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\MonitorRefreshRateSwitcher_mn0h5wlj_wpftmp.csproj.nuget.g.props"
+          },
+          {
+            "type": "file",
+            "name": "MonitorRefreshRateSwitcher_mn0h5wlj_wpftmp.csproj.nuget.g.targets",
+            "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\MonitorRefreshRateSwitcher_mn0h5wlj_wpftmp.csproj.nuget.g.targets"
+          },
+          {
+            "type": "file",
+            "name": "MonitorRefreshRateSwitcher_pgcyp4ns_wpftmp.csproj.nuget.dgspec.json",
+            "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\MonitorRefreshRateSwitcher_pgcyp4ns_wpftmp.csproj.nuget.dgspec.json"
+          },
+          {
+            "type": "file",
+            "name": "MonitorRefreshRateSwitcher_pgcyp4ns_wpftmp.csproj.nuget.g.props",
+            "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\MonitorRefreshRateSwitcher_pgcyp4ns_wpftmp.csproj.nuget.g.props"
+          },
+          {
+            "type": "file",
+            "name": "MonitorRefreshRateSwitcher_pgcyp4ns_wpftmp.csproj.nuget.g.targets",
+            "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\MonitorRefreshRateSwitcher_pgcyp4ns_wpftmp.csproj.nuget.g.targets"
+          },
+          {
+            "type": "file",
+            "name": "MonitorRefreshRateSwitcher_pibtbqvg_wpftmp.csproj.nuget.dgspec.json",
+            "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\MonitorRefreshRateSwitcher_pibtbqvg_wpftmp.csproj.nuget.dgspec.json"
+          },
+          {
+            "type": "file",
+            "name": "MonitorRefreshRateSwitcher_pibtbqvg_wpftmp.csproj.nuget.g.props",
+            "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\MonitorRefreshRateSwitcher_pibtbqvg_wpftmp.csproj.nuget.g.props"
+          },
+          {
+            "type": "file",
+            "name": "MonitorRefreshRateSwitcher_pibtbqvg_wpftmp.csproj.nuget.g.targets",
+            "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\MonitorRefreshRateSwitcher_pibtbqvg_wpftmp.csproj.nuget.g.targets"
+          },
+          {
+            "type": "file",
+            "name": "MonitorRefreshRateSwitcher_qc2tspis_wpftmp.csproj.nuget.dgspec.json",
+            "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\MonitorRefreshRateSwitcher_qc2tspis_wpftmp.csproj.nuget.dgspec.json"
+          },
+          {
+            "type": "file",
+            "name": "MonitorRefreshRateSwitcher_qc2tspis_wpftmp.csproj.nuget.g.props",
+            "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\MonitorRefreshRateSwitcher_qc2tspis_wpftmp.csproj.nuget.g.props"
+          },
+          {
+            "type": "file",
+            "name": "MonitorRefreshRateSwitcher_qc2tspis_wpftmp.csproj.nuget.g.targets",
+            "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\MonitorRefreshRateSwitcher_qc2tspis_wpftmp.csproj.nuget.g.targets"
+          },
+          {
+            "type": "file",
+            "name": "MonitorRefreshRateSwitcher_r2evk2sp_wpftmp.csproj.nuget.dgspec.json",
+            "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\MonitorRefreshRateSwitcher_r2evk2sp_wpftmp.csproj.nuget.dgspec.json"
+          },
+          {
+            "type": "file",
+            "name": "MonitorRefreshRateSwitcher_r2evk2sp_wpftmp.csproj.nuget.g.props",
+            "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\MonitorRefreshRateSwitcher_r2evk2sp_wpftmp.csproj.nuget.g.props"
+          },
+          {
+            "type": "file",
+            "name": "MonitorRefreshRateSwitcher_r2evk2sp_wpftmp.csproj.nuget.g.targets",
+            "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\MonitorRefreshRateSwitcher_r2evk2sp_wpftmp.csproj.nuget.g.targets"
+          },
+          {
+            "type": "file",
+            "name": "MonitorRefreshRateSwitcher_r3z0dgyz_wpftmp.csproj.nuget.dgspec.json",
+            "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\MonitorRefreshRateSwitcher_r3z0dgyz_wpftmp.csproj.nuget.dgspec.json"
+          },
+          {
+            "type": "file",
+            "name": "MonitorRefreshRateSwitcher_r3z0dgyz_wpftmp.csproj.nuget.g.props",
+            "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\MonitorRefreshRateSwitcher_r3z0dgyz_wpftmp.csproj.nuget.g.props"
+          },
+          {
+            "type": "file",
+            "name": "MonitorRefreshRateSwitcher_r3z0dgyz_wpftmp.csproj.nuget.g.targets",
+            "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\MonitorRefreshRateSwitcher_r3z0dgyz_wpftmp.csproj.nuget.g.targets"
+          },
+          {
+            "type": "file",
+            "name": "MonitorRefreshRateSwitcher_sbs4okt1_wpftmp.csproj.nuget.dgspec.json",
+            "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\MonitorRefreshRateSwitcher_sbs4okt1_wpftmp.csproj.nuget.dgspec.json"
+          },
+          {
+            "type": "file",
+            "name": "MonitorRefreshRateSwitcher_sbs4okt1_wpftmp.csproj.nuget.g.props",
+            "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\MonitorRefreshRateSwitcher_sbs4okt1_wpftmp.csproj.nuget.g.props"
+          },
+          {
+            "type": "file",
+            "name": "MonitorRefreshRateSwitcher_sbs4okt1_wpftmp.csproj.nuget.g.targets",
+            "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\MonitorRefreshRateSwitcher_sbs4okt1_wpftmp.csproj.nuget.g.targets"
+          },
+          {
+            "type": "file",
+            "name": "MonitorRefreshRateSwitcher_smzllece_wpftmp.csproj.nuget.dgspec.json",
+            "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\MonitorRefreshRateSwitcher_smzllece_wpftmp.csproj.nuget.dgspec.json"
+          },
+          {
+            "type": "file",
+            "name": "MonitorRefreshRateSwitcher_smzllece_wpftmp.csproj.nuget.g.props",
+            "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\MonitorRefreshRateSwitcher_smzllece_wpftmp.csproj.nuget.g.props"
+          },
+          {
+            "type": "file",
+            "name": "MonitorRefreshRateSwitcher_smzllece_wpftmp.csproj.nuget.g.targets",
+            "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\MonitorRefreshRateSwitcher_smzllece_wpftmp.csproj.nuget.g.targets"
+          },
+          {
+            "type": "file",
+            "name": "MonitorRefreshRateSwitcher_x5cavsxf_wpftmp.csproj.nuget.dgspec.json",
+            "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\MonitorRefreshRateSwitcher_x5cavsxf_wpftmp.csproj.nuget.dgspec.json"
+          },
+          {
+            "type": "file",
+            "name": "MonitorRefreshRateSwitcher_x5cavsxf_wpftmp.csproj.nuget.g.props",
+            "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\MonitorRefreshRateSwitcher_x5cavsxf_wpftmp.csproj.nuget.g.props"
+          },
+          {
+            "type": "file",
+            "name": "MonitorRefreshRateSwitcher_x5cavsxf_wpftmp.csproj.nuget.g.targets",
+            "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\MonitorRefreshRateSwitcher_x5cavsxf_wpftmp.csproj.nuget.g.targets"
+          },
+          {
+            "type": "file",
+            "name": "MonitorRefreshRateSwitcher_y3zi2irp_wpftmp.csproj.nuget.dgspec.json",
+            "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\MonitorRefreshRateSwitcher_y3zi2irp_wpftmp.csproj.nuget.dgspec.json"
+          },
+          {
+            "type": "file",
+            "name": "MonitorRefreshRateSwitcher_y3zi2irp_wpftmp.csproj.nuget.g.props",
+            "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\MonitorRefreshRateSwitcher_y3zi2irp_wpftmp.csproj.nuget.g.props"
+          },
+          {
+            "type": "file",
+            "name": "MonitorRefreshRateSwitcher_y3zi2irp_wpftmp.csproj.nuget.g.targets",
+            "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\MonitorRefreshRateSwitcher_y3zi2irp_wpftmp.csproj.nuget.g.targets"
+          },
+          {
+            "type": "file",
+            "name": "MonitorRefreshRateSwitcher.csproj.nuget.dgspec.json",
+            "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\MonitorRefreshRateSwitcher.csproj.nuget.dgspec.json"
+          },
+          {
+            "type": "file",
+            "name": "MonitorRefreshRateSwitcher.csproj.nuget.g.props",
+            "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\MonitorRefreshRateSwitcher.csproj.nuget.g.props"
+          },
+          {
+            "type": "file",
+            "name": "MonitorRefreshRateSwitcher.csproj.nuget.g.targets",
+            "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\MonitorRefreshRateSwitcher.csproj.nuget.g.targets"
+          },
+          {
+            "type": "file",
+            "name": "project.assets.json",
+            "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\project.assets.json"
+          },
+          {
+            "type": "file",
+            "name": "project.nuget.cache",
+            "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\project.nuget.cache"
+          }
+        ]
+      },
+      {
+        "type": "directory",
+        "name": "Resources",
+        "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\Resources",
+        "children": [
+          {
+            "type": "file",
+            "name": "app.ico",
+            "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\Resources\\app.ico"
+          }
+        ]
+      },
+      {
+        "type": "file",
+        "name": "app.manifest",
+        "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\app.manifest"
+      },
+      {
+        "type": "file",
+        "name": "App.xaml",
+        "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\App.xaml"
+      },
+      {
+        "type": "file",
+        "name": "App.xaml.cs",
+        "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\App.xaml.cs"
+      },
+      {
+        "type": "file",
+        "name": "AppConfig.cs",
+        "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\AppConfig.cs"
+      },
+      {
+        "type": "file",
+        "name": "AssemblyInfo.cs",
+        "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\AssemblyInfo.cs"
+      },
+      {
+        "type": "file",
+        "name": "DisplaySettings.cs",
+        "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\DisplaySettings.cs"
+      },
+      {
+        "type": "file",
+        "name": "HotkeyDialog.xaml",
+        "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\HotkeyDialog.xaml"
+      },
+      {
+        "type": "file",
+        "name": "HotkeyDialog.xaml.cs",
+        "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\HotkeyDialog.xaml.cs"
+      },
+      {
+        "type": "file",
+        "name": "HotkeyManager.cs",
+        "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\HotkeyManager.cs"
+      },
+      {
+        "type": "file",
+        "name": "MainWindow.xaml",
+        "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\MainWindow.xaml"
+      },
+      {
+        "type": "file",
+        "name": "MainWindow.xaml.cs",
+        "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\MainWindow.xaml.cs"
+      },
+      {
+        "type": "file",
+        "name": "MonitorRefreshRateSwitcher.csproj",
+        "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\MonitorRefreshRateSwitcher.csproj"
+      },
+      {
+        "type": "file",
+        "name": "MonitorRefreshRateSwitcher.csproj.user",
+        "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\MonitorRefreshRateSwitcher.csproj.user"
+      },
+      {
+        "type": "file",
+        "name": "MonitorRefreshRateSwitcher.sln",
+        "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\MonitorRefreshRateSwitcher.sln"
+      },
+      {
+        "type": "file",
+        "name": "NotificationManager.cs",
+        "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\NotificationManager.cs"
+      },
+      {
+        "type": "file",
+        "name": "ProfileDialog.xaml",
+        "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\ProfileDialog.xaml"
+      },
+      {
+        "type": "file",
+        "name": "ProfileDialog.xaml.cs",
+        "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\ProfileDialog.xaml.cs"
+      },
+      {
+        "type": "file",
+        "name": "ProfileManager.cs",
+        "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\ProfileManager.cs"
+      },
+      {
+        "type": "file",
+        "name": "project-structure.txt",
+        "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\project-structure.txt"
+      }
+    ]
+  }
+}

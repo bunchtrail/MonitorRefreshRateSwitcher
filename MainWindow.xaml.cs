@@ -10,6 +10,7 @@ using MessageBox = System.Windows.MessageBox;
 using Application = System.Windows.Application;
 using Button = System.Windows.Controls.Button;
 
+
 namespace MonitorRefreshRateSwitcher
 {
     /// <summary>
@@ -468,27 +469,49 @@ namespace MonitorRefreshRateSwitcher
         {
             try
             {
-                using var key = Registry.CurrentUser.OpenSubKey(
-                    @"SOFTWARE\Microsoft\Windows\CurrentVersion\Run", true);
+                string startupPath = Environment.GetFolderPath(Environment.SpecialFolder.Startup);
+                string shortcutPath = System.IO.Path.Combine(startupPath, "MonitorRefreshRateSwitcher.lnk");
+                string executablePath = System.Diagnostics.Process.GetCurrentProcess().MainModule.FileName;
 
-                if (key != null)
+                if (enable)
                 {
-                    if (enable)
+                    // Создаем ярлык через COM-объект
+                    Type shellType = Type.GetTypeFromProgID("WScript.Shell");
+                    dynamic shell = Activator.CreateInstance(shellType);
+                    var shortcut = shell.CreateShortcut(shortcutPath);
+                    
+                    shortcut.TargetPath = executablePath;
+                    shortcut.WorkingDirectory = System.IO.Path.GetDirectoryName(executablePath);
+                    shortcut.Description = "Переключатель частоты обновления монитора";
+                    shortcut.Save();
+
+                    System.Runtime.InteropServices.Marshal.FinalReleaseComObject(shortcut);
+                    System.Runtime.InteropServices.Marshal.FinalReleaseComObject(shell);
+                }
+                else
+                {
+                    // Удаляем ярлык, если он существует
+                    if (System.IO.File.Exists(shortcutPath))
                     {
-                        key.SetValue("MonitorRefreshRateSwitcher", 
-                            System.Reflection.Assembly.GetExecutingAssembly().Location);
-                    }
-                    else
-                    {
-                        key.DeleteValue("MonitorRefreshRateSwitcher", false);
+                        System.IO.File.Delete(shortcutPath);
                     }
                 }
+
+                _config.StartWithWindows = enable;
+            }
+            catch (UnauthorizedAccessException)
+            {
+                _notificationManager.ShowNotification(
+                    "Нет прав доступа к папке автозапуска",
+                    NotificationType.Error);
+                StartWithWindowsCheckBox.IsChecked = !enable;
             }
             catch (Exception ex)
             {
                 _notificationManager.ShowNotification(
-                    "Не удалось обновить настройки автозапуска",
+                    $"Не удалось обновить настройки автозапуска: {ex.Message}",
                     NotificationType.Error);
+                StartWithWindowsCheckBox.IsChecked = !enable;
             }
         }
 
