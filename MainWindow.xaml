@@ -12,11 +12,14 @@
         Background="#F5F5F5">
     
     <Window.Resources>
-        <Style TargetType="Button">
-            <Setter Property="Padding" Value="15,8"/>
+        <!-- Стиль для обычных кнопок -->
+        <Style x:Key="DefaultButtonStyle" TargetType="Button">
             <Setter Property="Background" Value="#2196F3"/>
             <Setter Property="Foreground" Value="White"/>
             <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Padding" Value="15,8"/>
+            <Setter Property="Margin" Value="2"/>
+            <Setter Property="Cursor" Value="Hand"/>
             <Setter Property="Template">
                 <Setter.Value>
                     <ControlTemplate TargetType="Button">
@@ -24,132 +27,375 @@
                                 BorderBrush="{TemplateBinding BorderBrush}"
                                 BorderThickness="{TemplateBinding BorderThickness}"
                                 CornerRadius="4">
-                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                            <ContentPresenter HorizontalAlignment="Center" 
+                                            VerticalAlignment="Center"
+                                            Margin="{TemplateBinding Padding}"/>
                         </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Background" Value="#1976D2"/>
+                            </Trigger>
+                            <Trigger Property="IsPressed" Value="True">
+                                <Setter Property="Background" Value="#0D47A1"/>
+                            </Trigger>
+                            <Trigger Property="IsEnabled" Value="False">
+                                <Setter Property="Background" Value="#BDBDBD"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
                     </ControlTemplate>
                 </Setter.Value>
             </Setter>
+        </Style>
+
+        <!-- Стиль для маленьких кнопок (редактирование, удаление) -->
+        <Style x:Key="IconButtonStyle" TargetType="Button" BasedOn="{StaticResource DefaultButtonStyle}">
+            <Setter Property="Width" Value="32"/>
+            <Setter Property="Height" Value="32"/>
+            <Setter Property="Padding" Value="4"/>
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="Margin" Value="2"/>
+        </Style>
+
+        <!-- Стиль для кнопки удаления -->
+        <Style x:Key="DeleteButtonStyle" TargetType="Button" BasedOn="{StaticResource IconButtonStyle}">
+            <Setter Property="Background" Value="#F44336"/>
             <Style.Triggers>
                 <Trigger Property="IsMouseOver" Value="True">
-                    <Setter Property="Background" Value="#1976D2"/>
+                    <Setter Property="Background" Value="#D32F2F"/>
+                </Trigger>
+                <Trigger Property="IsPressed" Value="True">
+                    <Setter Property="Background" Value="#B71C1C"/>
                 </Trigger>
             </Style.Triggers>
         </Style>
 
+        <!-- Стиль для GroupBox -->
         <Style TargetType="GroupBox">
-            <Setter Property="Margin" Value="0,0,0,15"/>
-            <Setter Property="Padding" Value="15"/>
+            <Setter Property="Margin" Value="0,0,0,10"/>
+            <Setter Property="Padding" Value="10"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="BorderBrush" Value="#DDDDDD"/>
+            <Setter Property="Background" Value="White"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="GroupBox">
+                        <Grid>
+                            <Border Background="{TemplateBinding Background}"
+                                    BorderBrush="{TemplateBinding BorderBrush}"
+                                    BorderThickness="{TemplateBinding BorderThickness}"
+                                    CornerRadius="4">
+                                <DockPanel>
+                                    <Border DockPanel.Dock="Top" 
+                                            Background="{TemplateBinding Background}"
+                                            BorderBrush="{TemplateBinding BorderBrush}"
+                                            BorderThickness="0"
+                                            Margin="10,0,0,0">
+                                        <ContentPresenter ContentSource="Header" 
+                                                        RecognizesAccessKey="True" 
+                                                        Margin="4"/>
+                                    </Border>
+                                    <ContentPresenter Margin="{TemplateBinding Padding}"/>
+                                </DockPanel>
+                            </Border>
+                        </Grid>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <!-- Стиль для ComboBox -->
+        <Style TargetType="ComboBox">
+            <Setter Property="Height" Value="32"/>
+            <Setter Property="Padding" Value="8,5"/>
+            <Setter Property="Background" Value="White"/>
+            <Setter Property="BorderBrush" Value="#BDBDBD"/>
+            <Setter Property="BorderThickness" Value="1"/>
+        </Style>
+
+        <!-- Стиль для CheckBox -->
+        <Style TargetType="CheckBox">
+            <Setter Property="Margin" Value="0,5"/>
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+        </Style>
+
+        <!-- Стиль для ListView -->
+        <Style TargetType="ListView">
             <Setter Property="BorderThickness" Value="1"/>
             <Setter Property="BorderBrush" Value="#DDDDDD"/>
             <Setter Property="Background" Value="White"/>
         </Style>
 
-        <Style TargetType="ComboBox">
-            <Setter Property="Height" Value="30"/>
-            <Setter Property="Padding" Value="8,5"/>
+        <!-- Стиль для TabControl -->
+        <Style TargetType="TabControl">
+            <Setter Property="Background" Value="Transparent"/>
+            <Setter Property="BorderThickness" Value="0"/>
         </Style>
 
-        <Style TargetType="CheckBox">
-            <Setter Property="Margin" Value="0,5"/>
+        <!-- Стиль для TabItem -->
+        <Style TargetType="TabItem">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="TabItem">
+                        <Border Name="Border" 
+                                BorderThickness="0,0,0,2" 
+                                BorderBrush="Transparent" 
+                                Margin="0,0,4,0"
+                                Padding="15,8">
+                            <ContentPresenter x:Name="ContentSite"
+                                            VerticalAlignment="Center"
+                                            HorizontalAlignment="Center"
+                                            ContentSource="Header"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsSelected" Value="True">
+                                <Setter TargetName="Border" Property="BorderBrush" Value="#2196F3"/>
+                                <Setter Property="Foreground" Value="#2196F3"/>
+                            </Trigger>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Foreground" Value="#1976D2"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
         </Style>
     </Window.Resources>
 
-    <Grid Margin="20">
+    <Grid Margin="15">
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="*"/>
             <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
 
-        <GroupBox Header="Текущие настройки" Grid.Row="0">
-            <StackPanel>
-                <TextBlock Text="Выберите частоту обновления:" 
-                           Margin="0,0,0,8"
-                           FontSize="14"/>
-                <ComboBox x:Name="RefreshRatesComboBox" 
-                          Margin="0,0,0,15"
-                          SelectionChanged="RefreshRatesComboBox_SelectionChanged"/>
-                <TextBlock x:Name="StatusTextBlock" 
-                           Margin="0,5,0,0"
-                           TextWrapping="Wrap"
-                           Foreground="#666666"/>
-            </StackPanel>
-        </GroupBox>
+        <TabControl Grid.Row="1" Margin="0,10,0,10">
+            <!-- Вкладка основных настроек -->
+            <TabItem Header="Основные настройки">
+                <Grid Margin="10">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
 
-        <GroupBox Header="Горячие клавиши" Grid.Row="1">
-            <Grid>
-                <Grid.RowDefinitions>
-                    <RowDefinition Height="Auto"/>
-                    <RowDefinition Height="*"/>
-                    <RowDefinition Height="Auto"/>
-                </Grid.RowDefinitions>
+                    <GroupBox Header="Текущая частота" Grid.Row="0">
+                        <StackPanel Orientation="Horizontal" Margin="5">
+                            <ComboBox x:Name="RefreshRatesComboBox" Width="120" 
+                                    SelectionChanged="RefreshRatesComboBox_SelectionChanged"/>
+                            <Button Content="Применить" Style="{StaticResource DefaultButtonStyle}"
+                                    Margin="10,0,0,0" Click="ApplyRefreshRate_Click"/>
+                        </StackPanel>
+                    </GroupBox>
 
-                <TextBlock Text="Настроенные горячие клавиши:" 
-                           Margin="0,0,0,10"
-                           FontSize="14"/>
-                
-                <ListView x:Name="HotkeyListView" 
-                          Grid.Row="1" 
-                          Margin="0,0,0,15"
-                          BorderThickness="1"
-                          BorderBrush="#DDDDDD">
-                    <ListView.View>
-                        <GridView>
-                            <GridViewColumn Header="Клавиши" Width="250">
-                                <GridViewColumn.CellTemplate>
-                                    <DataTemplate>
-                                        <TextBlock Text="{Binding}" VerticalAlignment="Center"/>
-                                    </DataTemplate>
-                                </GridViewColumn.CellTemplate>
-                            </GridViewColumn>
-                            <GridViewColumn Header="Частота" Width="150">
-                                <GridViewColumn.CellTemplate>
-                                    <DataTemplate>
-                                        <TextBlock Text="{Binding}" VerticalAlignment="Center"/>
-                                    </DataTemplate>
-                                </GridViewColumn.CellTemplate>
-                            </GridViewColumn>
-                            <GridViewColumn Header="Действия" Width="200">
-                                <GridViewColumn.CellTemplate>
-                                    <DataTemplate>
-                                        <StackPanel Orientation="Horizontal">
-                                            <Button Content="Изменить" 
-                                                    Click="EditHotkey_Click"
-                                                    Margin="0,0,5,0"
-                                                    Background="#4CAF50"/>
-                                            <Button Content="Удалить" 
-                                                    Click="RemoveHotkey_Click"
-                                                    Background="#F44336"/>
-                                        </StackPanel>
-                                    </DataTemplate>
-                                </GridViewColumn.CellTemplate>
-                            </GridViewColumn>
-                        </GridView>
-                    </ListView.View>
-                </ListView>
+                    <GroupBox Header="Настройки запуска" Grid.Row="1">
+                        <StackPanel Margin="5">
+                            <CheckBox x:Name="MinimizeToTrayCheckBox" Content="Сворачивать в трей" 
+                                    Checked="Settings_Changed" Unchecked="Settings_Changed"/>
+                            <CheckBox x:Name="StartMinimizedCheckBox" Content="Запускать свернутым" 
+                                    Checked="Settings_Changed" Unchecked="Settings_Changed"/>
+                            <CheckBox x:Name="StartWithWindowsCheckBox" Content="Запускать вместе с Windows" 
+                                    Checked="Settings_Changed" Unchecked="Settings_Changed"/>
+                            <TextBlock Text="Профиль при запуске" Margin="0,10,0,5"/>
+                            <ComboBox x:Name="StartupProfileComboBox" Width="250" 
+                                    HorizontalAlignment="Left"
+                                    SelectionChanged="StartupProfile_Changed"
+                                    DisplayMemberPath="Name"/>
+                        </StackPanel>
+                    </GroupBox>
 
-                <Button Grid.Row="2" 
-                        Content="Добавить новую комбинацию" 
-                        Click="AddHotkey_Click" 
-                        HorizontalAlignment="Left"/>
-            </Grid>
-        </GroupBox>
+                    <GroupBox Header="Горячие клавиши" Grid.Row="2">
+                        <Grid Margin="5">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="Auto"/>
+                            </Grid.RowDefinitions>
+                            <ListView x:Name="HotkeyListView">
+                                <ListView.View>
+                                    <GridView>
+                                        <GridViewColumn Header="Клавиши" Width="200">
+                                            <GridViewColumn.CellTemplate>
+                                                <DataTemplate>
+                                                    <TextBlock Text="{Binding Клавиши}" 
+                                                             VerticalAlignment="Center"/>
+                                                </DataTemplate>
+                                            </GridViewColumn.CellTemplate>
+                                        </GridViewColumn>
+                                        <GridViewColumn Header="Частота" Width="100">
+                                            <GridViewColumn.CellTemplate>
+                                                <DataTemplate>
+                                                    <TextBlock Text="{Binding Частота}" 
+                                                             VerticalAlignment="Center"/>
+                                                </DataTemplate>
+                                            </GridViewColumn.CellTemplate>
+                                        </GridViewColumn>
+                                        <GridViewColumn Header="Активна" Width="80">
+                                            <GridViewColumn.CellTemplate>
+                                                <DataTemplate>
+                                                    <CheckBox IsChecked="{Binding IsEnabled}" 
+                                                            IsEnabled="True"
+                                                            VerticalAlignment="Center"
+                                                            HorizontalAlignment="Center"/>
+                                                </DataTemplate>
+                                            </GridViewColumn.CellTemplate>
+                                        </GridViewColumn>
+                                        <GridViewColumn Header="Действия" Width="100">
+                                            <GridViewColumn.CellTemplate>
+                                                <DataTemplate>
+                                                    <StackPanel Orientation="Horizontal">
+                                                        <Button Content="✎" Style="{StaticResource IconButtonStyle}"
+                                                                Click="EditHotkey_Click"
+                                                                ToolTip="Редактировать"/>
+                                                        <Button Content="✖" Style="{StaticResource DeleteButtonStyle}"
+                                                                Click="RemoveHotkey_Click"
+                                                                ToolTip="Удалить"/>
+                                                    </StackPanel>
+                                                </DataTemplate>
+                                            </GridViewColumn.CellTemplate>
+                                        </GridViewColumn>
+                                    </GridView>
+                                </ListView.View>
+                                <ListView.ItemContainerStyle>
+                                    <Style TargetType="ListViewItem">
+                                        <Setter Property="HorizontalContentAlignment" Value="Stretch"/>
+                                        <Setter Property="Padding" Value="5"/>
+                                        <Setter Property="Background" Value="Transparent"/>
+                                        <Style.Triggers>
+                                            <Trigger Property="IsMouseOver" Value="True">
+                                                <Setter Property="Background" Value="#F5F5F5"/>
+                                            </Trigger>
+                                            <Trigger Property="IsSelected" Value="True">
+                                                <Setter Property="Background" Value="#E3F2FD"/>
+                                            </Trigger>
+                                        </Style.Triggers>
+                                    </Style>
+                                </ListView.ItemContainerStyle>
+                            </ListView>
+                            <Button Grid.Row="1" Content="Добавить" Style="{StaticResource DefaultButtonStyle}"
+                                    HorizontalAlignment="Left" Margin="0,10,0,0" 
+                                    Click="AddHotkey_Click"/>
+                        </Grid>
+                    </GroupBox>
+                </Grid>
+            </TabItem>
 
-        <GroupBox Header="Настройки приложения" Grid.Row="2">
-            <StackPanel>
-                <CheckBox x:Name="MinimizeToTrayCheckBox" 
-                          Content="Сворачивать в трей" 
-                          Checked="Settings_Changed" 
-                          Unchecked="Settings_Changed"/>
-                <CheckBox x:Name="StartMinimizedCheckBox" 
-                          Content="Запускать свёрнутым" 
-                          Checked="Settings_Changed" 
-                          Unchecked="Settings_Changed"/>
-                <CheckBox x:Name="StartWithWindowsCheckBox" 
-                          Content="Запускать вместе с Windows" 
-                          Checked="Settings_Changed" 
-                          Unchecked="Settings_Changed"/>
-            </StackPanel>
-        </GroupBox>
+            <!-- Вкладка профилей -->
+            <TabItem Header="Профили">
+                <Grid Margin="10">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+
+                    <ListView x:Name="ProfilesListView">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn Header="Название" Width="150" 
+                                              DisplayMemberBinding="{Binding Name}"/>
+                                <GridViewColumn Header="Частота" Width="100" 
+                                              DisplayMemberBinding="{Binding RefreshRate}"/>
+                                <GridViewColumn Header="Активен" Width="60">
+                                    <GridViewColumn.CellTemplate>
+                                        <DataTemplate>
+                                            <CheckBox IsChecked="{Binding IsEnabled}" 
+                                                    Click="ProfileEnabled_Changed"/>
+                                        </DataTemplate>
+                                    </GridViewColumn.CellTemplate>
+                                </GridViewColumn>
+                                <GridViewColumn Header="Действия" Width="200">
+                                    <GridViewColumn.CellTemplate>
+                                        <DataTemplate>
+                                            <StackPanel Orientation="Horizontal">
+                                                <Button Content="Применить" Style="{StaticResource DefaultButtonStyle}"
+                                                        Click="ApplyProfile_Click"/>
+                                                <Button Content="✎" Style="{StaticResource IconButtonStyle}"
+                                                        Click="EditProfile_Click"/>
+                                                <Button Content="✖" Style="{StaticResource DeleteButtonStyle}"
+                                                        Click="DeleteProfile_Click"/>
+                                            </StackPanel>
+                                        </DataTemplate>
+                                    </GridViewColumn.CellTemplate>
+                                </GridViewColumn>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+
+                    <Button Grid.Row="1" Content="Создать профиль" 
+                            Style="{StaticResource DefaultButtonStyle}"
+                            HorizontalAlignment="Left" Margin="0,10,0,0" 
+                            Click="CreateProfile_Click"/>
+                </Grid>
+            </TabItem>
+
+            <!-- Вкладка уведомлений -->
+            <TabItem Header="Уведомления">
+                <Grid Margin="10">
+                    <StackPanel>
+                        <CheckBox x:Name="ShowToastsCheckBox" 
+                                Content="Показывать всплывающие уведомления" 
+                                Checked="NotificationSettings_Changed" 
+                                Unchecked="NotificationSettings_Changed"/>
+                        <CheckBox x:Name="ShowStatusBarCheckBox" 
+                                Content="Показывать строку состояния" 
+                                Checked="NotificationSettings_Changed" 
+                                Unchecked="NotificationSettings_Changed"/>
+                        <StackPanel Orientation="Horizontal" Margin="0,10">
+                            <TextBlock Text="Длительность уведомлений (мс):" 
+                                     VerticalAlignment="Center"/>
+                            <TextBox x:Name="ToastDurationTextBox" Width="100" 
+                                   Margin="10,0,0,0" Padding="5,3"
+                                   TextChanged="ToastDuration_Changed"/>
+                        </StackPanel>
+                    </StackPanel>
+                </Grid>
+            </TabItem>
+
+            <!-- Вкладка трея -->
+            <TabItem Header="Трей">
+                <Grid Margin="10">
+                    <StackPanel>
+                        <CheckBox x:Name="ShowFavoritesCheckBox" 
+                                Content="Показывать избранные частоты" 
+                                Checked="TraySettings_Changed" 
+                                Unchecked="TraySettings_Changed"/>
+                        <CheckBox x:Name="ShowProfilesCheckBox" 
+                                Content="Показывать профили" 
+                                Checked="TraySettings_Changed" 
+                                Unchecked="TraySettings_Changed"/>
+                        <CheckBox x:Name="ShowHotkeysCheckBox" 
+                                Content="Показывать горячие клавиши" 
+                                Checked="TraySettings_Changed" 
+                                Unchecked="TraySettings_Changed"/>
+                        
+                        <GroupBox Header="Избранные частоты" Margin="0,10">
+                            <Grid>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="*"/>
+                                    <RowDefinition Height="Auto"/>
+                                </Grid.RowDefinitions>
+                                
+                                <ListBox x:Name="FavoriteRatesListBox" 
+                                        MinHeight="100" Margin="5"/>
+                                <StackPanel Grid.Row="1" Orientation="Horizontal" 
+                                          Margin="5">
+                                    <ComboBox x:Name="AddFavoriteRateComboBox" 
+                                            Width="120"/>
+                                    <Button Content="Добавить" 
+                                            Style="{StaticResource DefaultButtonStyle}"
+                                            Margin="5,0" Click="AddFavoriteRate_Click"/>
+                                    <Button Content="Удалить" 
+                                            Style="{StaticResource DeleteButtonStyle}"
+                                            Click="RemoveFavoriteRate_Click"/>
+                                </StackPanel>
+                            </Grid>
+                        </GroupBox>
+                    </StackPanel>
+                </Grid>
+            </TabItem>
+        </TabControl>
+
+        <!-- Строка состояния -->
+        <TextBlock x:Name="StatusBar" Grid.Row="2" Margin="0,5,0,0" 
+                   TextWrapping="Wrap" Foreground="Green"/>
     </Grid>
 </Window>

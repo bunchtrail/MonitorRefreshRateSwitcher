@@ -1,5 +1,6 @@
 ﻿using System;
 using System.ComponentModel;
+using System.Linq;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Interop;
@@ -18,6 +19,8 @@ namespace MonitorRefreshRateSwitcher
     {
         private readonly HotkeyManager _hotkeyManager;
         private readonly Forms.NotifyIcon _notifyIcon;
+        private readonly NotificationManager _notificationManager;
+        private readonly ProfileManager _profileManager;
         private AppConfig _config;
         private bool _isClosing;
 
@@ -28,15 +31,24 @@ namespace MonitorRefreshRateSwitcher
             _hotkeyManager = new HotkeyManager();
             _config = AppConfig.Load();
             _notifyIcon = CreateNotifyIcon();
+            _notificationManager = new NotificationManager(_notifyIcon, this, StatusBar, _config.NotificationSettings);
+            _profileManager = new ProfileManager(_config, _hotkeyManager, _notificationManager);
 
             LoadSettings();
             LoadRefreshRates();
+            LoadProfiles();
+            UpdateFavoriteRates();
 
             if (_config.StartMinimized)
             {
                 WindowState = WindowState.Minimized;
                 if (_config.MinimizeToTray)
                     Hide();
+            }
+
+            if (!string.IsNullOrEmpty(_config.StartupProfile))
+            {
+                _profileManager.ApplyProfile(_config.StartupProfile);
             }
         }
 
@@ -51,10 +63,31 @@ namespace MonitorRefreshRateSwitcher
 
             var contextMenu = new Forms.ContextMenuStrip();
             contextMenu.Items.Add("Открыть", null, (s, e) => ShowMainWindow());
-            contextMenu.Items.Add("-"); // Разделитель
-            contextMenu.Items.Add("60 Гц", null, (s, e) => DisplaySettings.SetRefreshRate(60));
-            contextMenu.Items.Add("144 Гц", null, (s, e) => DisplaySettings.SetRefreshRate(144));
-            contextMenu.Items.Add("-"); // Разделитель
+            
+            if (_config.TraySettings.ShowFavorites)
+            {
+                contextMenu.Items.Add("-");
+                foreach (var rate in _config.TraySettings.FavoriteRefreshRates)
+                {
+                    contextMenu.Items.Add($"{rate} Гц", null, (s, e) => 
+                    {
+                        DisplaySettings.SetRefreshRate(rate);
+                        _notificationManager.ShowNotification($"Частота обновления изменена на {rate} Гц");
+                    });
+                }
+            }
+
+            if (_config.TraySettings.ShowProfiles)
+            {
+                contextMenu.Items.Add("-");
+                foreach (var profile in _config.Profiles.Where(p => p.IsEnabled))
+                {
+                    contextMenu.Items.Add($"Профиль: {profile.Name}", null, (s, e) => 
+                        _profileManager.ApplyProfile(profile.Name));
+                }
+            }
+
+            contextMenu.Items.Add("-");
             contextMenu.Items.Add("Выход", null, (s, e) => { _isClosing = true; Close(); });
 
             notifyIcon.ContextMenuStrip = contextMenu;
@@ -75,13 +108,26 @@ namespace MonitorRefreshRateSwitcher
             MinimizeToTrayCheckBox.IsChecked = _config.MinimizeToTray;
             StartMinimizedCheckBox.IsChecked = _config.StartMinimized;
             StartWithWindowsCheckBox.IsChecked = _config.StartWithWindows;
+            ShowToastsCheckBox.IsChecked = _config.NotificationSettings.ShowToasts;
+            ShowStatusBarCheckBox.IsChecked = _config.NotificationSettings.ShowStatusBar;
+            ToastDurationTextBox.Text = _config.NotificationSettings.ToastDuration.ToString();
+            ShowFavoritesCheckBox.IsChecked = _config.TraySettings.ShowFavorites;
+            ShowProfilesCheckBox.IsChecked = _config.TraySettings.ShowProfiles;
+            ShowHotkeysCheckBox.IsChecked = _config.TraySettings.ShowHotkeys;
+
+            StartupProfileComboBox.ItemsSource = _config.Profiles;
+            if (!string.IsNullOrEmpty(_config.StartupProfile))
+            {
+                StartupProfileComboBox.SelectedItem = _config.Profiles
+                    .FirstOrDefault(p => p.Name == _config.StartupProfile);
+            }
 
             SourceInitialized += (s, e) =>
             {
                 var handle = new WindowInteropHelper(this).Handle;
                 HwndSource.FromHwnd(handle)?.AddHook(WndProc);
 
-                foreach (var hotkey in _config.Hotkeys)
+                foreach (var hotkey in _config.Hotkeys.Where(h => h.IsEnabled))
                 {
                     RegisterHotkey(hotkey);
                 }
@@ -90,11 +136,32 @@ namespace MonitorRefreshRateSwitcher
             };
         }
 
+        private void LoadProfiles()
+        {
+            ProfilesListView.ItemsSource = null;
+            ProfilesListView.ItemsSource = _config.Profiles;
+        }
+
+        private void UpdateFavoriteRates()
+        {
+            FavoriteRatesListBox.ItemsSource = null;
+            FavoriteRatesListBox.ItemsSource = _config.TraySettings.FavoriteRefreshRates
+                .Select(r => $"{r} Гц");
+
+            AddFavoriteRateComboBox.ItemsSource = DisplaySettings.GetAvailableRefreshRates()
+                .Except(_config.TraySettings.FavoriteRefreshRates);
+        }
+
         private void RegisterHotkey(HotkeyConfig config)
         {
             var handle = new WindowInteropHelper(this).Handle;
             _hotkeyManager.RegisterHotkey(handle, config.Key, config.Modifiers,
-                () => DisplaySettings.SetRefreshRate(config.TargetRefreshRate));
+                () => 
+                {
+                    DisplaySettings.SetRefreshRate(config.TargetRefreshRate);
+                    _notificationManager.ShowNotification(
+                        $"Частота обновления изменена на {config.TargetRefreshRate} Гц");
+                });
         }
 
         private IntPtr WndProc(IntPtr hwnd, int msg, IntPtr wParam, IntPtr lParam, ref bool handled)
@@ -106,37 +173,75 @@ namespace MonitorRefreshRateSwitcher
 
         private void UpdateHotkeyList()
         {
-            HotkeyListView.Items.Clear();
-            foreach (var hotkey in _config.Hotkeys)
+            HotkeyListView.ItemsSource = _config.Hotkeys.Select(h => new HotkeyViewModel(h, this)).ToList();
+        }
+
+        public class HotkeyViewModel : INotifyPropertyChanged
+        {
+            private readonly HotkeyConfig _config;
+            private readonly MainWindow _mainWindow;
+
+            public string Клавиши => $"{_config.Modifiers}+{_config.Key}";
+            public string Частота => $"{_config.TargetRefreshRate} Гц";
+            
+            public bool IsEnabled
             {
-                HotkeyListView.Items.Add(new
+                get => _config.IsEnabled;
+                set
                 {
-                    Клавиши = $"{hotkey.Modifiers}+{hotkey.Key}",
-                    Частота = $"{hotkey.TargetRefreshRate} Гц",
-                    Config = hotkey
-                });
+                    if (_config.IsEnabled != value)
+                    {
+                        _config.IsEnabled = value;
+                        _mainWindow._config.Save();
+                        
+                        var handle = new WindowInteropHelper(_mainWindow).Handle;
+                        _mainWindow._hotkeyManager.UnregisterAll(handle);
+                        foreach (var hotkey in _mainWindow._config.Hotkeys.Where(h => h.IsEnabled))
+                        {
+                            _mainWindow.RegisterHotkey(hotkey);
+                        }
+                        
+                        OnPropertyChanged(nameof(IsEnabled));
+                    }
+                }
+            }
+
+            public HotkeyConfig Config => _config;
+
+            public HotkeyViewModel(HotkeyConfig config, MainWindow mainWindow)
+            {
+                _config = config;
+                _mainWindow = mainWindow;
+            }
+
+            public event PropertyChangedEventHandler PropertyChanged;
+
+            protected virtual void OnPropertyChanged(string propertyName)
+            {
+                PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
             }
         }
 
         private void EditHotkey_Click(object sender, RoutedEventArgs e)
         {
             var button = (Button)sender;
-            var item = (dynamic)((FrameworkElement)button.Parent).DataContext;
-            var hotkeyConfig = (HotkeyConfig)item.Config;
-            var index = _config.Hotkeys.IndexOf(hotkeyConfig);
+            var viewModel = (HotkeyViewModel)((FrameworkElement)button.Parent).DataContext;
+            var index = _config.Hotkeys.IndexOf(viewModel.Config);
 
             if (index >= 0)
             {
-                var dialog = new HotkeyDialog(hotkeyConfig);
+                var dialog = new HotkeyDialog(viewModel.Config);
                 if (dialog.ShowDialog() == true)
                 {
                     var handle = new WindowInteropHelper(this).Handle;
-                    UnregisterHotkey(handle, hotkeyConfig);
+                    UnregisterHotkey(handle, viewModel.Config);
 
                     _config.Hotkeys[index] = dialog.HotkeyConfig;
                     RegisterHotkey(dialog.HotkeyConfig);
                     UpdateHotkeyList();
                     _config.Save();
+
+                    _notificationManager.ShowNotification("Горячая клавиша обновлена");
                 }
             }
         }
@@ -144,7 +249,7 @@ namespace MonitorRefreshRateSwitcher
         private void UnregisterHotkey(IntPtr handle, HotkeyConfig config)
         {
             _hotkeyManager.UnregisterAll(handle);
-            foreach (var hotkey in _config.Hotkeys)
+            foreach (var hotkey in _config.Hotkeys.Where(h => h.IsEnabled))
             {
                 if (hotkey != config)
                 {
@@ -162,25 +267,29 @@ namespace MonitorRefreshRateSwitcher
                 RegisterHotkey(dialog.HotkeyConfig);
                 UpdateHotkeyList();
                 _config.Save();
+
+                _notificationManager.ShowNotification("Горячая клавиша добавлена");
             }
         }
 
         private void RemoveHotkey_Click(object sender, RoutedEventArgs e)
         {
-            if (HotkeyListView.SelectedIndex >= 0)
+            var button = (Button)sender;
+            var viewModel = (HotkeyViewModel)((FrameworkElement)button.Parent).DataContext;
+            
+            _config.Hotkeys.Remove(viewModel.Config);
+            UpdateHotkeyList();
+            _config.Save();
+
+            var handle = new WindowInteropHelper(this).Handle;
+            _hotkeyManager.UnregisterAll(handle);
+
+            foreach (var hotkey in _config.Hotkeys.Where(h => h.IsEnabled))
             {
-                _config.Hotkeys.RemoveAt(HotkeyListView.SelectedIndex);
-                UpdateHotkeyList();
-                _config.Save();
-
-                var handle = new WindowInteropHelper(this).Handle;
-                _hotkeyManager.UnregisterAll(handle);
-
-                foreach (var hotkey in _config.Hotkeys)
-                {
-                    RegisterHotkey(hotkey);
-                }
+                RegisterHotkey(hotkey);
             }
+
+            _notificationManager.ShowNotification("Горячая клавиша удалена");
         }
 
         private void Settings_Changed(object sender, RoutedEventArgs e)
@@ -193,6 +302,166 @@ namespace MonitorRefreshRateSwitcher
 
             UpdateStartWithWindows(_config.StartWithWindows);
             _config.Save();
+
+            _notificationManager.ShowNotification("Настройки сохранены");
+        }
+
+        private void NotificationSettings_Changed(object sender, RoutedEventArgs e)
+        {
+            if (!IsLoaded) return;
+
+            _config.NotificationSettings.ShowToasts = ShowToastsCheckBox.IsChecked ?? true;
+            _config.NotificationSettings.ShowStatusBar = ShowStatusBarCheckBox.IsChecked ?? true;
+            _config.Save();
+
+            _notificationManager.ShowNotification("Настройки уведомлений обновлены");
+        }
+
+        private void ToastDuration_Changed(object sender, TextChangedEventArgs e)
+        {
+            if (!IsLoaded) return;
+
+            if (int.TryParse(ToastDurationTextBox.Text, out int duration))
+            {
+                _config.NotificationSettings.ToastDuration = duration;
+                _config.Save();
+            }
+        }
+
+        private void TraySettings_Changed(object sender, RoutedEventArgs e)
+        {
+            if (!IsLoaded) return;
+
+            _config.TraySettings.ShowFavorites = ShowFavoritesCheckBox.IsChecked ?? true;
+            _config.TraySettings.ShowProfiles = ShowProfilesCheckBox.IsChecked ?? true;
+            _config.TraySettings.ShowHotkeys = ShowHotkeysCheckBox.IsChecked ?? true;
+            _config.Save();
+
+            _notifyIcon.ContextMenuStrip = CreateNotifyIcon().ContextMenuStrip;
+            _notificationManager.ShowNotification("Настройки трея обновлены");
+        }
+
+        private void AddFavoriteRate_Click(object sender, RoutedEventArgs e)
+        {
+            if (AddFavoriteRateComboBox.SelectedItem != null)
+            {
+                var rate = (int)AddFavoriteRateComboBox.SelectedItem;
+                _config.TraySettings.FavoriteRefreshRates.Add(rate);
+                _config.Save();
+
+                UpdateFavoriteRates();
+                _notifyIcon.ContextMenuStrip = CreateNotifyIcon().ContextMenuStrip;
+                _notificationManager.ShowNotification($"Частота {rate} Гц добавлена в избранное");
+            }
+        }
+
+        private void RemoveFavoriteRate_Click(object sender, RoutedEventArgs e)
+        {
+            if (FavoriteRatesListBox.SelectedItem != null)
+            {
+                var rateStr = (string)FavoriteRatesListBox.SelectedItem;
+                var rate = int.Parse(rateStr.Replace(" Гц", ""));
+                _config.TraySettings.FavoriteRefreshRates.Remove(rate);
+                _config.Save();
+
+                UpdateFavoriteRates();
+                _notifyIcon.ContextMenuStrip = CreateNotifyIcon().ContextMenuStrip;
+                _notificationManager.ShowNotification($"Частота {rate} Гц удалена из избранного");
+            }
+        }
+
+        private void CreateProfile_Click(object sender, RoutedEventArgs e)
+        {
+            var dialog = new ProfileDialog(DisplaySettings.GetAvailableRefreshRates().ToList());
+            if (dialog.ShowDialog() == true)
+            {
+                _config.Profiles.Add(dialog.Profile);
+                _config.Save();
+
+                LoadProfiles();
+                _notifyIcon.ContextMenuStrip = CreateNotifyIcon().ContextMenuStrip;
+                _notificationManager.ShowNotification($"Профиль '{dialog.Profile.Name}' создан");
+            }
+        }
+
+        private void EditProfile_Click(object sender, RoutedEventArgs e)
+        {
+            var button = (Button)sender;
+            var profile = (Profile)((FrameworkElement)button.Parent).DataContext;
+            var index = _config.Profiles.IndexOf(profile);
+
+            if (index >= 0)
+            {
+                var dialog = new ProfileDialog(
+                    DisplaySettings.GetAvailableRefreshRates().ToList(), 
+                    profile);
+                if (dialog.ShowDialog() == true)
+                {
+                    _config.Profiles[index] = dialog.Profile;
+                    _config.Save();
+
+                    LoadProfiles();
+                    _notifyIcon.ContextMenuStrip = CreateNotifyIcon().ContextMenuStrip;
+                    _notificationManager.ShowNotification($"Профиль '{dialog.Profile.Name}' обновлен");
+                }
+            }
+        }
+
+        private void DeleteProfile_Click(object sender, RoutedEventArgs e)
+        {
+            var button = (Button)sender;
+            var profile = (Profile)((FrameworkElement)button.Parent).DataContext;
+            
+            if (MessageBox.Show(
+                $"Вы уверены, что хотите удалить профиль '{profile.Name}'?",
+                "Подтверждение",
+                MessageBoxButton.YesNo,
+                MessageBoxImage.Question) == MessageBoxResult.Yes)
+            {
+                _config.Profiles.Remove(profile);
+                _config.Save();
+
+                LoadProfiles();
+                _notifyIcon.ContextMenuStrip = CreateNotifyIcon().ContextMenuStrip;
+                _notificationManager.ShowNotification($"Профиль '{profile.Name}' удален");
+            }
+        }
+
+        private void ProfileEnabled_Changed(object sender, RoutedEventArgs e)
+        {
+            _config.Save();
+            _notifyIcon.ContextMenuStrip = CreateNotifyIcon().ContextMenuStrip;
+        }
+
+        private void StartupProfile_Changed(object sender, SelectionChangedEventArgs e)
+        {
+            if (!IsLoaded) return;
+
+            var profile = (Profile)StartupProfileComboBox.SelectedItem;
+            _config.StartupProfile = profile?.Name ?? "";
+            _config.Save();
+
+            _notificationManager.ShowNotification(
+                profile != null
+                    ? $"Профиль '{profile.Name}' будет применяться при запуске"
+                    : "Профиль при запуске отключен");
+        }
+
+        private void ApplyProfile_Click(object sender, RoutedEventArgs e)
+        {
+            var button = (Button)sender;
+            var profile = (Profile)((FrameworkElement)button.Parent).DataContext;
+            _profileManager.ApplyProfile(profile.Name);
+        }
+
+        private void ApplyRefreshRate_Click(object sender, RoutedEventArgs e)
+        {
+            if (RefreshRatesComboBox.SelectedItem != null)
+            {
+                var rate = (int)RefreshRatesComboBox.SelectedItem;
+                DisplaySettings.SetRefreshRate(rate);
+                _notificationManager.ShowNotification($"Частота обновления изменена на {rate} Гц");
+            }
         }
 
         private void UpdateStartWithWindows(bool enable)
@@ -215,10 +484,11 @@ namespace MonitorRefreshRateSwitcher
                     }
                 }
             }
-            catch (Exception)
+            catch (Exception ex)
             {
-                MessageBox.Show("Не удалось обновить настройки автозапуска",
-                    "Ошибка", MessageBoxButton.OK, MessageBoxImage.Warning);
+                _notificationManager.ShowNotification(
+                    "Не удалось обновить настройки автозапуска",
+                    NotificationType.Error);
             }
         }
 
@@ -248,47 +518,24 @@ namespace MonitorRefreshRateSwitcher
 
         private void LoadRefreshRates()
         {
-            try
+            var rates = DisplaySettings.GetAvailableRefreshRates();
+            RefreshRatesComboBox.ItemsSource = rates;
+            
+            if (rates.Any())
             {
-                var refreshRates = DisplaySettings.GetAvailableRefreshRates();
-                RefreshRatesComboBox.ItemsSource = refreshRates;
-                
-                if (refreshRates.Length > 0)
-                {
-                    RefreshRatesComboBox.SelectedIndex = 0;
-                    StatusTextBlock.Text = "Доступные частоты обновления загружены успешно.";
-                }
-                else
-                {
-                    StatusTextBlock.Text = "Не удалось найти доступные частоты обновления.";
-                }
+                RefreshRatesComboBox.SelectedItem = DisplaySettings.GetCurrentRefreshRate();
             }
-            catch (Exception ex)
-            {
-                StatusTextBlock.Text = $"Ошибка при загрузке частот обновления: {ex.Message}";
-            }
+
+            AddFavoriteRateComboBox.ItemsSource = rates;
         }
 
         private void RefreshRatesComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            if (RefreshRatesComboBox.SelectedItem is int selectedRate)
-            {
-                try
-                {
-                    if (DisplaySettings.SetRefreshRate(selectedRate))
-                    {
-                        StatusTextBlock.Text = $"Частота обновления успешно изменена на {selectedRate} Гц";
-                    }
-                    else
-                    {
-                        StatusTextBlock.Text = $"Не удалось установить частоту {selectedRate} Гц";
-                    }
-                }
-                catch (Exception ex)
-                {
-                    StatusTextBlock.Text = $"Ошибка при изменении частоты обновления: {ex.Message}";
-                }
-            }
+            if (!IsLoaded || RefreshRatesComboBox.SelectedItem == null) return;
+
+            var rate = (int)RefreshRatesComboBox.SelectedItem;
+            DisplaySettings.SetRefreshRate(rate);
+            _notificationManager.ShowNotification($"Частота обновления изменена на {rate} Гц");
         }
     }
 }

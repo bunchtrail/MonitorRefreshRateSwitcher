@@ -131,5 +131,18 @@ namespace MonitorRefreshRateSwitcher
             Array.Sort(result);
             return result;
         }
+
+        public static int GetCurrentRefreshRate()
+        {
+            DEVMODE dm = new DEVMODE();
+            dm.dmSize = (short)Marshal.SizeOf(typeof(DEVMODE));
+
+            if (EnumDisplaySettings(null, ENUM_CURRENT_SETTINGS, ref dm))
+            {
+                return dm.dmDisplayFrequency;
+            }
+
+            return 60; // возвращаем значение по умолчанию в случае ошибки
+        }
     }
 } 
