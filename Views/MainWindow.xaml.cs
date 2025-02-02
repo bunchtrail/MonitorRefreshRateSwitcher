@@ -9,9 +9,11 @@ using Microsoft.Win32;
 using MessageBox = System.Windows.MessageBox;
 using Application = System.Windows.Application;
 using Button = System.Windows.Controls.Button;
+using MonitorRefreshRateSwitcher.Models;
+using MonitorRefreshRateSwitcher.Services;
+using MonitorRefreshRateSwitcher.Config;
 
-
-namespace MonitorRefreshRateSwitcher
+namespace MonitorRefreshRateSwitcher.Views
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml

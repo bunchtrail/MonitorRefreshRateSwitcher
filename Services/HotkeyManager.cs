@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Runtime.InteropServices;
 using System.Windows.Input;
 
-namespace MonitorRefreshRateSwitcher
+namespace MonitorRefreshRateSwitcher.Services
 {
     public class HotkeyManager
     {

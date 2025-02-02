@@ -1,8 +1,10 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using MonitorRefreshRateSwitcher.Config;
+using MonitorRefreshRateSwitcher.Services;
 
-namespace MonitorRefreshRateSwitcher
+namespace MonitorRefreshRateSwitcher.Models
 {
     public class ProfileManager
     {

@@ -3,11 +3,9 @@ D:\Projects\MonitorRefreshRateSwitcher\bin\Debug\net8.0-windows\MonitorRefreshRa
 D:\Projects\MonitorRefreshRateSwitcher\bin\Debug\net8.0-windows\MonitorRefreshRateSwitcher.runtimeconfig.json
 D:\Projects\MonitorRefreshRateSwitcher\bin\Debug\net8.0-windows\MonitorRefreshRateSwitcher.dll
 D:\Projects\MonitorRefreshRateSwitcher\bin\Debug\net8.0-windows\MonitorRefreshRateSwitcher.pdb
-D:\Projects\MonitorRefreshRateSwitcher\obj\Debug\net8.0-windows\MainWindow.g.cs
 D:\Projects\MonitorRefreshRateSwitcher\obj\Debug\net8.0-windows\App.g.cs
 D:\Projects\MonitorRefreshRateSwitcher\obj\Debug\net8.0-windows\MonitorRefreshRateSwitcher_MarkupCompile.cache
 D:\Projects\MonitorRefreshRateSwitcher\obj\Debug\net8.0-windows\MonitorRefreshRateSwitcher_MarkupCompile.lref
-D:\Projects\MonitorRefreshRateSwitcher\obj\Debug\net8.0-windows\MainWindow.baml
 D:\Projects\MonitorRefreshRateSwitcher\obj\Debug\net8.0-windows\MonitorRefreshRateSwitcher.g.resources
 D:\Projects\MonitorRefreshRateSwitcher\obj\Debug\net8.0-windows\MonitorRefreshRateSwitcher.GeneratedMSBuildEditorConfig.editorconfig
 D:\Projects\MonitorRefreshRateSwitcher\obj\Debug\net8.0-windows\MonitorRefreshRateSwitcher.AssemblyInfoInputs.cache
@@ -18,8 +16,10 @@ D:\Projects\MonitorRefreshRateSwitcher\obj\Debug\net8.0-windows\refint\MonitorRe
 D:\Projects\MonitorRefreshRateSwitcher\obj\Debug\net8.0-windows\MonitorRefreshRateSwitcher.pdb
 D:\Projects\MonitorRefreshRateSwitcher\obj\Debug\net8.0-windows\MonitorRefreshRateSwitcher.genruntimeconfig.cache
 D:\Projects\MonitorRefreshRateSwitcher\obj\Debug\net8.0-windows\ref\MonitorRefreshRateSwitcher.dll
-D:\Projects\MonitorRefreshRateSwitcher\obj\Debug\net8.0-windows\HotkeyDialog.baml
-D:\Projects\MonitorRefreshRateSwitcher\obj\Debug\net8.0-windows\HotkeyDialog.g.cs
 D:\Projects\MonitorRefreshRateSwitcher\obj\Debug\net8.0-windows\MonitorRefreshRateSwitcher.sourcelink.json
-D:\Projects\MonitorRefreshRateSwitcher\obj\Debug\net8.0-windows\ProfileDialog.baml
-D:\Projects\MonitorRefreshRateSwitcher\obj\Debug\net8.0-windows\ProfileDialog.g.cs
+D:\Projects\MonitorRefreshRateSwitcher\obj\Debug\net8.0-windows\Views\HotkeyDialog.g.cs
+D:\Projects\MonitorRefreshRateSwitcher\obj\Debug\net8.0-windows\Views\MainWindow.g.cs
+D:\Projects\MonitorRefreshRateSwitcher\obj\Debug\net8.0-windows\Views\ProfileDialog.g.cs
+D:\Projects\MonitorRefreshRateSwitcher\obj\Debug\net8.0-windows\Views\HotkeyDialog.baml
+D:\Projects\MonitorRefreshRateSwitcher\obj\Debug\net8.0-windows\Views\MainWindow.baml
+D:\Projects\MonitorRefreshRateSwitcher\obj\Debug\net8.0-windows\Views\ProfileDialog.baml

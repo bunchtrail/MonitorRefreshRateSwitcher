@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 D:\Projects\MonitorRefreshRateSwitcher\App.xaml
-3140319727
+31727341332
 
-11839017557
+11-2023250851
 2071294216742
-HotkeyDialog.xaml;MainWindow.xaml;ProfileDialog.xaml;
+Views\HotkeyDialog.xaml;Views\MainWindow.xaml;Views\ProfileDialog.xaml;
 
 False
 

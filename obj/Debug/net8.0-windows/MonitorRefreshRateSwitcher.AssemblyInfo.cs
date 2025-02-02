@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MonitorRefreshRateSwitcher")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+24cfd382862365fefa5375b8d8edb05010b56429")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1ca39b785e629546649ff9f3c285c18db973bfba")]
 [assembly: System.Reflection.AssemblyProductAttribute("MonitorRefreshRateSwitcher")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MonitorRefreshRateSwitcher")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

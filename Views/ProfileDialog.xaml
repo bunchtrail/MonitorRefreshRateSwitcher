@@ -1,6 +1,8 @@
-<Window x:Class="MonitorRefreshRateSwitcher.ProfileDialog"
+<Window x:Class="MonitorRefreshRateSwitcher.Views.ProfileDialog"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:MonitorRefreshRateSwitcher.Views"
+        xmlns:models="clr-namespace:MonitorRefreshRateSwitcher.Models"
         Title="Профиль" Height="450" Width="600"
         WindowStartupLocation="CenterOwner"
         ResizeMode="NoResize">

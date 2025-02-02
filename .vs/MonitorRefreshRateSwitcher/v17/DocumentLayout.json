@@ -3,24 +3,32 @@
   "WorkspaceRootPath": "D:\\Projects\\MonitorRefreshRateSwitcher\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2F630BDD-3DBB-418A-8C35-F7F928E00816}|MonitorRefreshRateSwitcher.csproj|d:\\projects\\monitorrefreshrateswitcher\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2F630BDD-3DBB-418A-8C35-F7F928E00816}|MonitorRefreshRateSwitcher.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2F630BDD-3DBB-418A-8C35-F7F928E00816}|MonitorRefreshRateSwitcher.csproj|d:\\projects\\monitorrefreshrateswitcher\\views\\profiledialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F630BDD-3DBB-418A-8C35-F7F928E00816}|MonitorRefreshRateSwitcher.csproj|solutionrelative:views\\profiledialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2F630BDD-3DBB-418A-8C35-F7F928E00816}|MonitorRefreshRateSwitcher.csproj|d:\\projects\\monitorrefreshrateswitcher\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{2F630BDD-3DBB-418A-8C35-F7F928E00816}|MonitorRefreshRateSwitcher.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{2F630BDD-3DBB-418A-8C35-F7F928E00816}|MonitorRefreshRateSwitcher.csproj|d:\\projects\\monitorrefreshrateswitcher\\views\\hotkeydialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F630BDD-3DBB-418A-8C35-F7F928E00816}|MonitorRefreshRateSwitcher.csproj|solutionrelative:views\\hotkeydialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Projects\\MonitorRefreshRateSwitcher\\MainWindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MainWindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2F630BDD-3DBB-418A-8C35-F7F928E00816}|MonitorRefreshRateSwitcher.csproj|d:\\projects\\monitorrefreshrateswitcher\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2F630BDD-3DBB-418A-8C35-F7F928E00816}|MonitorRefreshRateSwitcher.csproj|solutionrelative:app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2F630BDD-3DBB-418A-8C35-F7F928E00816}|MonitorRefreshRateSwitcher.csproj|d:\\projects\\monitorrefreshrateswitcher\\hotkeydialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2F630BDD-3DBB-418A-8C35-F7F928E00816}|MonitorRefreshRateSwitcher.csproj|solutionrelative:hotkeydialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2F630BDD-3DBB-418A-8C35-F7F928E00816}|MonitorRefreshRateSwitcher.csproj|d:\\projects\\monitorrefreshrateswitcher\\monitorrefreshrateswitcher.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{2F630BDD-3DBB-418A-8C35-F7F928E00816}|MonitorRefreshRateSwitcher.csproj|solutionrelative:monitorrefreshrateswitcher.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Projects\\MonitorRefreshRateSwitcher\\MainWindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MainWindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Projects\\MonitorRefreshRateSwitcher\\HotkeyDialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:HotkeyDialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,19 +66,43 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProfileDialog.xaml.cs",
+              "DocumentMoniker": "D:\\Projects\\MonitorRefreshRateSwitcher\\Views\\ProfileDialog.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\ProfileDialog.xaml.cs",
+              "ToolTip": "D:\\Projects\\MonitorRefreshRateSwitcher\\Views\\ProfileDialog.xaml.cs",
+              "RelativeToolTip": "Views\\ProfileDialog.xaml.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAkwAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-02T07:27:14.149Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "HotkeyDialog.xaml.cs",
+              "DocumentMoniker": "D:\\Projects\\MonitorRefreshRateSwitcher\\Views\\HotkeyDialog.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\HotkeyDialog.xaml.cs",
+              "ToolTip": "D:\\Projects\\MonitorRefreshRateSwitcher\\Views\\HotkeyDialog.xaml.cs",
+              "RelativeToolTip": "Views\\HotkeyDialog.xaml.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAApwA8AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-02T07:27:05.446Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "D:\\Projects\\MonitorRefreshRateSwitcher\\MainWindow.xaml",
               "RelativeDocumentMoniker": "MainWindow.xaml",
               "ToolTip": "D:\\Projects\\MonitorRefreshRateSwitcher\\MainWindow.xaml",
               "RelativeToolTip": "MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-02-01T21:15:43.268Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-01T21:15:43.268Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "HotkeyDialog.xaml.cs",
               "DocumentMoniker": "D:\\Projects\\MonitorRefreshRateSwitcher\\HotkeyDialog.xaml.cs",
               "RelativeDocumentMoniker": "HotkeyDialog.xaml.cs",
@@ -78,12 +110,11 @@
               "RelativeToolTip": "HotkeyDialog.xaml.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAAAjwBoAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-01T20:31:54.792Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-01T20:31:54.792Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "App.xaml.cs",
               "DocumentMoniker": "D:\\Projects\\MonitorRefreshRateSwitcher\\App.xaml.cs",
               "RelativeDocumentMoniker": "App.xaml.cs",
@@ -91,21 +122,18 @@
               "RelativeToolTip": "App.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-01T20:31:47.19Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-01T20:31:47.19Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "D:\\Projects\\MonitorRefreshRateSwitcher\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "MainWindow.xaml.cs",
               "ToolTip": "D:\\Projects\\MonitorRefreshRateSwitcher\\MainWindow.xaml.cs",
               "RelativeToolTip": "MainWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-01T20:19:09.95Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-01T20:19:09.95Z"
             },
             {
               "$type": "Document",
@@ -117,8 +145,7 @@
               "RelativeToolTip": "MonitorRefreshRateSwitcher.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-02-01T20:14:08.254Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-01T20:14:08.254Z"
             }
           ]
         }

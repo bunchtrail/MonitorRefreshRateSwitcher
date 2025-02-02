@@ -4,8 +4,9 @@ using System.Windows.Controls;
 using System.Windows.Media;
 using System.Windows.Media.Animation;
 using Forms = System.Windows.Forms;
+using MonitorRefreshRateSwitcher.Config;
 
-namespace MonitorRefreshRateSwitcher
+namespace MonitorRefreshRateSwitcher.Services
 {
     public enum NotificationType
     {

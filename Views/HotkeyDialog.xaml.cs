@@ -2,8 +2,11 @@ using System.Windows;
 using System.Windows.Input;
 using MessageBox = System.Windows.MessageBox;
 using KeyEventArgs = System.Windows.Input.KeyEventArgs;
+using MonitorRefreshRateSwitcher.Models;
+using MonitorRefreshRateSwitcher.Services;
+using MonitorRefreshRateSwitcher.Config;
 
-namespace MonitorRefreshRateSwitcher
+namespace MonitorRefreshRateSwitcher.Views
 {
     public partial class HotkeyDialog : Window
     {

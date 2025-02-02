@@ -4,7 +4,7 @@ using System.IO;
 using System.Text.Json;
 using System.Windows.Input;
 
-namespace MonitorRefreshRateSwitcher
+namespace MonitorRefreshRateSwitcher.Config
 {
     public class HotkeyConfig
     {

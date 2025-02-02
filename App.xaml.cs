@@ -2,6 +2,7 @@
 using System.Data;
 using System.Windows;
 using Application = System.Windows.Application;
+using MonitorRefreshRateSwitcher.Views;
 
 namespace MonitorRefreshRateSwitcher
 {
@@ -11,5 +12,4 @@ namespace MonitorRefreshRateSwitcher
     public partial class App : Application
     {
     }
-
 }

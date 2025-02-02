@@ -34,28 +34,28 @@
                 "children": [
                   {
                     "type": "file",
-                    "name": "39a591ad-5312-4fd5-ae0d-8da72547b4e2.vsidx",
-                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\.vs\\MonitorRefreshRateSwitcher\\FileContentIndex\\39a591ad-5312-4fd5-ae0d-8da72547b4e2.vsidx"
+                    "name": "02641965-957f-4d76-85fa-6d3bd9129edb.vsidx",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\.vs\\MonitorRefreshRateSwitcher\\FileContentIndex\\02641965-957f-4d76-85fa-6d3bd9129edb.vsidx"
                   },
                   {
                     "type": "file",
-                    "name": "577cbd7f-5304-41e1-a70f-642f9a0eb8ba.vsidx",
-                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\.vs\\MonitorRefreshRateSwitcher\\FileContentIndex\\577cbd7f-5304-41e1-a70f-642f9a0eb8ba.vsidx"
+                    "name": "753fc12a-e96f-461a-84a9-4c65f841e7d7.vsidx",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\.vs\\MonitorRefreshRateSwitcher\\FileContentIndex\\753fc12a-e96f-461a-84a9-4c65f841e7d7.vsidx"
                   },
                   {
                     "type": "file",
-                    "name": "8a340bf5-33f3-42de-bc0d-ce05900a6e0d.vsidx",
-                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\.vs\\MonitorRefreshRateSwitcher\\FileContentIndex\\8a340bf5-33f3-42de-bc0d-ce05900a6e0d.vsidx"
+                    "name": "868c3577-4cbe-42e0-8777-c3a98bd4d00f.vsidx",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\.vs\\MonitorRefreshRateSwitcher\\FileContentIndex\\868c3577-4cbe-42e0-8777-c3a98bd4d00f.vsidx"
                   },
                   {
                     "type": "file",
-                    "name": "c16e978a-4c24-4c98-9b7d-6efc2ca7f5e2.vsidx",
-                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\.vs\\MonitorRefreshRateSwitcher\\FileContentIndex\\c16e978a-4c24-4c98-9b7d-6efc2ca7f5e2.vsidx"
+                    "name": "a8e8f957-d48a-49b8-9a3a-a506529066c5.vsidx",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\.vs\\MonitorRefreshRateSwitcher\\FileContentIndex\\a8e8f957-d48a-49b8-9a3a-a506529066c5.vsidx"
                   },
                   {
                     "type": "file",
-                    "name": "d9561b26-b861-49b9-8f66-73da93d6c9b3.vsidx",
-                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\.vs\\MonitorRefreshRateSwitcher\\FileContentIndex\\d9561b26-b861-49b9-8f66-73da93d6c9b3.vsidx"
+                    "name": "e5accb9c-0d5c-4d35-8ca0-d7bbc08da7dc.vsidx",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\.vs\\MonitorRefreshRateSwitcher\\FileContentIndex\\e5accb9c-0d5c-4d35-8ca0-d7bbc08da7dc.vsidx"
                   }
                 ]
               },
@@ -310,6 +310,18 @@
       },
       {
         "type": "directory",
+        "name": "Config",
+        "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\Config",
+        "children": [
+          {
+            "type": "file",
+            "name": "AppConfig.cs",
+            "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\Config\\AppConfig.cs"
+          }
+        ]
+      },
+      {
+        "type": "directory",
         "name": "docs",
         "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\docs",
         "children": [
@@ -317,6 +329,23 @@
             "type": "file",
             "name": "project-structure.json",
             "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\docs\\project-structure.json"
+          }
+        ]
+      },
+      {
+        "type": "directory",
+        "name": "Models",
+        "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\Models",
+        "children": [
+          {
+            "type": "file",
+            "name": "DisplaySettings.cs",
+            "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\Models\\DisplaySettings.cs"
+          },
+          {
+            "type": "file",
+            "name": "ProfileManager.cs",
+            "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\Models\\ProfileManager.cs"
           }
         ]
       },
@@ -575,6 +604,58 @@
                     ]
                   },
                   {
+                    "type": "directory",
+                    "name": "Views",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\Views",
+                    "children": [
+                      {
+                        "type": "file",
+                        "name": "HotkeyDialog.baml",
+                        "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\Views\\HotkeyDialog.baml"
+                      },
+                      {
+                        "type": "file",
+                        "name": "HotkeyDialog.g.cs",
+                        "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\Views\\HotkeyDialog.g.cs"
+                      },
+                      {
+                        "type": "file",
+                        "name": "HotkeyDialog.g.i.cs",
+                        "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\Views\\HotkeyDialog.g.i.cs"
+                      },
+                      {
+                        "type": "file",
+                        "name": "MainWindow.baml",
+                        "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\Views\\MainWindow.baml"
+                      },
+                      {
+                        "type": "file",
+                        "name": "MainWindow.g.cs",
+                        "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\Views\\MainWindow.g.cs"
+                      },
+                      {
+                        "type": "file",
+                        "name": "MainWindow.g.i.cs",
+                        "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\Views\\MainWindow.g.i.cs"
+                      },
+                      {
+                        "type": "file",
+                        "name": "ProfileDialog.baml",
+                        "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\Views\\ProfileDialog.baml"
+                      },
+                      {
+                        "type": "file",
+                        "name": "ProfileDialog.g.cs",
+                        "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\Views\\ProfileDialog.g.cs"
+                      },
+                      {
+                        "type": "file",
+                        "name": "ProfileDialog.g.i.cs",
+                        "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\Views\\ProfileDialog.g.i.cs"
+                      }
+                    ]
+                  },
+                  {
                     "type": "file",
                     "name": ".NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
                     "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs"
@@ -596,28 +677,8 @@
                   },
                   {
                     "type": "file",
-                    "name": "HotkeyDialog.baml",
-                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\HotkeyDialog.baml"
-                  },
-                  {
-                    "type": "file",
-                    "name": "HotkeyDialog.g.cs",
-                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\HotkeyDialog.g.cs"
-                  },
-                  {
-                    "type": "file",
                     "name": "HotkeyDialog.g.i.cs",
                     "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\HotkeyDialog.g.i.cs"
-                  },
-                  {
-                    "type": "file",
-                    "name": "MainWindow.baml",
-                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MainWindow.baml"
-                  },
-                  {
-                    "type": "file",
-                    "name": "MainWindow.g.cs",
-                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MainWindow.g.cs"
                   },
                   {
                     "type": "file",
@@ -1521,6 +1582,36 @@
                   },
                   {
                     "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_pg2uvkh5_wpftmp.AssemblyInfo.cs",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_pg2uvkh5_wpftmp.AssemblyInfo.cs"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_pg2uvkh5_wpftmp.AssemblyInfoInputs.cache",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_pg2uvkh5_wpftmp.AssemblyInfoInputs.cache"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_pg2uvkh5_wpftmp.assets.cache",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_pg2uvkh5_wpftmp.assets.cache"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_pg2uvkh5_wpftmp.GeneratedMSBuildEditorConfig.editorconfig",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_pg2uvkh5_wpftmp.GeneratedMSBuildEditorConfig.editorconfig"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_pg2uvkh5_wpftmp.GlobalUsings.g.cs",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_pg2uvkh5_wpftmp.GlobalUsings.g.cs"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_pg2uvkh5_wpftmp.sourcelink.json",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_pg2uvkh5_wpftmp.sourcelink.json"
+                  },
+                  {
+                    "type": "file",
                     "name": "MonitorRefreshRateSwitcher_pgcyp4ns_wpftmp.AssemblyInfo.cs",
                     "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_pgcyp4ns_wpftmp.AssemblyInfo.cs"
                   },
@@ -1793,6 +1884,36 @@
                     "type": "file",
                     "name": "MonitorRefreshRateSwitcher_smzllece_wpftmp.sourcelink.json",
                     "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_smzllece_wpftmp.sourcelink.json"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_sw3kkrrh_wpftmp.AssemblyInfo.cs",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_sw3kkrrh_wpftmp.AssemblyInfo.cs"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_sw3kkrrh_wpftmp.AssemblyInfoInputs.cache",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_sw3kkrrh_wpftmp.AssemblyInfoInputs.cache"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_sw3kkrrh_wpftmp.assets.cache",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_sw3kkrrh_wpftmp.assets.cache"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_sw3kkrrh_wpftmp.GeneratedMSBuildEditorConfig.editorconfig",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_sw3kkrrh_wpftmp.GeneratedMSBuildEditorConfig.editorconfig"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_sw3kkrrh_wpftmp.GlobalUsings.g.cs",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_sw3kkrrh_wpftmp.GlobalUsings.g.cs"
+                  },
+                  {
+                    "type": "file",
+                    "name": "MonitorRefreshRateSwitcher_sw3kkrrh_wpftmp.sourcelink.json",
+                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher_sw3kkrrh_wpftmp.sourcelink.json"
                   },
                   {
                     "type": "file",
@@ -2153,16 +2274,6 @@
                     "type": "file",
                     "name": "MonitorRefreshRateSwitcher.sourcelink.json",
                     "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\MonitorRefreshRateSwitcher.sourcelink.json"
-                  },
-                  {
-                    "type": "file",
-                    "name": "ProfileDialog.baml",
-                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\ProfileDialog.baml"
-                  },
-                  {
-                    "type": "file",
-                    "name": "ProfileDialog.g.cs",
-                    "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\Debug\\net8.0-windows\\ProfileDialog.g.cs"
                   },
                   {
                     "type": "file",
@@ -2691,6 +2802,21 @@
           },
           {
             "type": "file",
+            "name": "MonitorRefreshRateSwitcher_pg2uvkh5_wpftmp.csproj.nuget.dgspec.json",
+            "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\MonitorRefreshRateSwitcher_pg2uvkh5_wpftmp.csproj.nuget.dgspec.json"
+          },
+          {
+            "type": "file",
+            "name": "MonitorRefreshRateSwitcher_pg2uvkh5_wpftmp.csproj.nuget.g.props",
+            "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\MonitorRefreshRateSwitcher_pg2uvkh5_wpftmp.csproj.nuget.g.props"
+          },
+          {
+            "type": "file",
+            "name": "MonitorRefreshRateSwitcher_pg2uvkh5_wpftmp.csproj.nuget.g.targets",
+            "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\MonitorRefreshRateSwitcher_pg2uvkh5_wpftmp.csproj.nuget.g.targets"
+          },
+          {
+            "type": "file",
             "name": "MonitorRefreshRateSwitcher_pgcyp4ns_wpftmp.csproj.nuget.dgspec.json",
             "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\obj\\MonitorRefreshRateSwitcher_pgcyp4ns_wpftmp.csproj.nuget.dgspec.json"
           },
@@ -2853,6 +2979,18 @@
       },
       {
         "type": "directory",
+        "name": "Properties",
+        "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\Properties",
+        "children": [
+          {
+            "type": "file",
+            "name": "AssemblyInfo.cs",
+            "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\Properties\\AssemblyInfo.cs"
+          }
+        ]
+      },
+      {
+        "type": "directory",
         "name": "Resources",
         "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\Resources",
         "children": [
@@ -2860,6 +2998,60 @@
             "type": "file",
             "name": "app.ico",
             "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\Resources\\app.ico"
+          }
+        ]
+      },
+      {
+        "type": "directory",
+        "name": "Services",
+        "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\Services",
+        "children": [
+          {
+            "type": "file",
+            "name": "HotkeyManager.cs",
+            "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\Services\\HotkeyManager.cs"
+          },
+          {
+            "type": "file",
+            "name": "NotificationManager.cs",
+            "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\Services\\NotificationManager.cs"
+          }
+        ]
+      },
+      {
+        "type": "directory",
+        "name": "Views",
+        "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\Views",
+        "children": [
+          {
+            "type": "file",
+            "name": "HotkeyDialog.xaml",
+            "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\Views\\HotkeyDialog.xaml"
+          },
+          {
+            "type": "file",
+            "name": "HotkeyDialog.xaml.cs",
+            "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\Views\\HotkeyDialog.xaml.cs"
+          },
+          {
+            "type": "file",
+            "name": "MainWindow.xaml",
+            "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\Views\\MainWindow.xaml"
+          },
+          {
+            "type": "file",
+            "name": "MainWindow.xaml.cs",
+            "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\Views\\MainWindow.xaml.cs"
+          },
+          {
+            "type": "file",
+            "name": "ProfileDialog.xaml",
+            "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\Views\\ProfileDialog.xaml"
+          },
+          {
+            "type": "file",
+            "name": "ProfileDialog.xaml.cs",
+            "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\Views\\ProfileDialog.xaml.cs"
           }
         ]
       },
@@ -2880,46 +3072,6 @@
       },
       {
         "type": "file",
-        "name": "AppConfig.cs",
-        "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\AppConfig.cs"
-      },
-      {
-        "type": "file",
-        "name": "AssemblyInfo.cs",
-        "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\AssemblyInfo.cs"
-      },
-      {
-        "type": "file",
-        "name": "DisplaySettings.cs",
-        "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\DisplaySettings.cs"
-      },
-      {
-        "type": "file",
-        "name": "HotkeyDialog.xaml",
-        "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\HotkeyDialog.xaml"
-      },
-      {
-        "type": "file",
-        "name": "HotkeyDialog.xaml.cs",
-        "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\HotkeyDialog.xaml.cs"
-      },
-      {
-        "type": "file",
-        "name": "HotkeyManager.cs",
-        "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\HotkeyManager.cs"
-      },
-      {
-        "type": "file",
-        "name": "MainWindow.xaml",
-        "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\MainWindow.xaml"
-      },
-      {
-        "type": "file",
-        "name": "MainWindow.xaml.cs",
-        "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\MainWindow.xaml.cs"
-      },
-      {
-        "type": "file",
         "name": "MonitorRefreshRateSwitcher.csproj",
         "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\MonitorRefreshRateSwitcher.csproj"
       },
@@ -2932,26 +3084,6 @@
         "type": "file",
         "name": "MonitorRefreshRateSwitcher.sln",
         "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\MonitorRefreshRateSwitcher.sln"
-      },
-      {
-        "type": "file",
-        "name": "NotificationManager.cs",
-        "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\NotificationManager.cs"
-      },
-      {
-        "type": "file",
-        "name": "ProfileDialog.xaml",
-        "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\ProfileDialog.xaml"
-      },
-      {
-        "type": "file",
-        "name": "ProfileDialog.xaml.cs",
-        "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\ProfileDialog.xaml.cs"
-      },
-      {
-        "type": "file",
-        "name": "ProfileManager.cs",
-        "path": "d:\\Projects\\MonitorRefreshRateSwitcher\\ProfileManager.cs"
       },
       {
         "type": "file",

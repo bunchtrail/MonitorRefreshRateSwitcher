@@ -1,8 +1,11 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Windows;
+using MonitorRefreshRateSwitcher.Config;
+using MonitorRefreshRateSwitcher.Models;
+using MonitorRefreshRateSwitcher.Services;
 
-namespace MonitorRefreshRateSwitcher
+namespace MonitorRefreshRateSwitcher.Views
 {
     public partial class ProfileDialog : Window
     {
